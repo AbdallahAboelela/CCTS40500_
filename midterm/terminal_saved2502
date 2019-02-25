@@ -1,0 +1,4572 @@
+Last login: Sun Feb 24 22:24:06 on ttys000
+Abdallahs-MacBook-Pro:~ abdallahaboelela$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abdallahs-MacBook-Pro:~ abdallahaboelela$ ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures	VirtualBox VMs
+Abdallahs-MacBook-Pro:~ abdallahaboelela$ cd Documents/GitHub/
+Abdallahs-MacBook-Pro:GitHub abdallahaboelela$ ls
+BA-Draft		CS122			ds_harvardx
+CCTS40500_		distracted_driving
+Abdallahs-MacBook-Pro:GitHub abdallahaboelela$ cd CCTS40500_/
+Abdallahs-MacBook-Pro:CCTS40500_ abdallahaboelela$ ls
+BRCA23.csv		notebooks		script003.ipynb
+README.md		posterBayes.pdf
+midterm			published_lectures
+Abdallahs-MacBook-Pro:CCTS40500_ abdallahaboelela$ clear
+
+
+
+
+
+
+
+
+
+
+
+Abdallahs-MacBook-Pro:CCTS40500_ abdallahaboelela$ ls
+BRCA23.csv		notebooks		script003.ipynb
+README.md		posterBayes.pdf
+midterm			published_lectures
+Abdallahs-MacBook-Pro:CCTS40500_ abdallahaboelela$ cd midterm/
+Abdallahs-MacBook-Pro:midterm abdallahaboelela$ ls
+README.md	code_snippets	data
+Abdallahs-MacBook-Pro:midterm abdallahaboelela$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abdallahs-MacBook-Pro:midterm abdallahaboelela$ cd data
+Abdallahs-MacBook-Pro:data abdallahaboelela$ ls
+Cardiovascular		Integumentary		Positive
+Development		Metabolic		Procedural
+Digestive		Musculoskeletal		Reproductive
+Endocrine		Negative		Respiratory
+Hematologic		Neoplastic		Urinary
+Hepatic			Ophthalmological	__pycache__
+Immune			Otic			midterm.py
+Infectious		PNS
+Abdallahs-MacBook-Pro:data abdallahaboelela$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abdallahs-MacBook-Pro:data abdallahaboelela$ ls
+Cardiovascular		Integumentary		Positive
+Development		Metabolic		Procedural
+Digestive		Musculoskeletal		Reproductive
+Endocrine		Negative		Respiratory
+Hematologic		Neoplastic		Urinary
+Hepatic			Ophthalmological	__pycache__
+Immune			Otic			midterm.py
+Infectious		PNS
+Abdallahs-MacBook-Pro:data abdallahaboelela$ cleaer
+-bash: cleaer: command not found
+Abdallahs-MacBook-Pro:data abdallahaboelela$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+Abdallahs-MacBook-Pro:data abdallahaboelela$ ls
+Cardiovascular		Immune			Neoplastic		Reproductive
+Development		Infectious		Ophthalmological	Respiratory
+Digestive		Integumentary		Otic			Urinary
+Endocrine		Metabolic		PNS			__pycache__
+Hematologic		Musculoskeletal		Positive		midterm.py
+Hepatic			Negative		Procedural
+Abdallahs-MacBook-Pro:data abdallahaboelela$ cler
+-bash: cler: command not found
+Abdallahs-MacBook-Pro:data abdallahaboelela$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abdallahs-MacBook-Pro:data abdallahaboelela$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abdallahs-MacBook-Pro:data abdallahaboelela$ ls
+Cardiovascular		Immune			Neoplastic		Reproductive
+Development		Infectious		Ophthalmological	Respiratory
+Digestive		Integumentary		Otic			Urinary
+Endocrine		Metabolic		PNS			__pycache__
+Hematologic		Musculoskeletal		Positive		midterm.py
+Hepatic			Negative		Procedural
+Abdallahs-MacBook-Pro:data abdallahaboelela$ mv midterm.py ../midterm.py
+Abdallahs-MacBook-Pro:data abdallahaboelela$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abdallahs-MacBook-Pro:data abdallahaboelela$ ls
+Cardiovascular		Immune			Neoplastic		Reproductive
+Development		Infectious		Ophthalmological	Respiratory
+Digestive		Integumentary		Otic			Urinary
+Endocrine		Metabolic		PNS			__pycache__
+Hematologic		Musculoskeletal		Positive
+Hepatic			Negative		Procedural
+Abdallahs-MacBook-Pro:data abdallahaboelela$ cd ..
+Abdallahs-MacBook-Pro:midterm abdallahaboelela$ ls
+README.md	code_snippets	data		midterm.py
+Abdallahs-MacBook-Pro:midterm abdallahaboelela$ ipython3
+Python 3.7.2 (default, Dec 27 2018, 07:35:06) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.2.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: clear                                                                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In [2]: os.listdir(data)                                                                             
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-2-f7a055c67f85> in <module>
+----> 1 os.listdir(data)
+
+NameError: name 'os' is not defined
+
+In [3]: import os                                                                                    
+
+In [4]: os.listdir(data)                                                                             
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-4-f7a055c67f85> in <module>
+----> 1 os.listdir(data)
+
+NameError: name 'data' is not defined
+
+In [5]: os.listdir('data')                                                                           
+Out[5]: 
+['Musculoskeletal',
+ 'Positive',
+ 'Development',
+ 'midterm.py',
+ 'Metabolic',
+ 'Neoplastic',
+ 'Hepatic',
+ 'Digestive',
+ 'Negative',
+ 'Urinary',
+ 'PNS',
+ '__pycache__',
+ 'Endocrine',
+ 'Immune',
+ 'Reproductive',
+ 'Hematologic',
+ 'Cardiovascular',
+ 'Infectious',
+ 'Respiratory',
+ 'Integumentary',
+ 'Ophthalmological',
+ 'Procedural',
+ 'Otic']
+
+In [6]: clear                                                                                        
+
+
+
+
+
+
+
+
+
+In [7]: ls                                                                                           
+README.md      code_snippets/ data/          midterm.py
+
+
+[1]+  Stopped                 ipython3
+Abdallahs-MacBook-Pro:midterm abdallahaboelela$ cleqar
+-bash: cleqar: command not found
+Abdallahs-MacBook-Pro:midterm abdallahaboelela$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abdallahs-MacBook-Pro:midterm abdallahaboelela$ ipython3
+Python 3.7.2 (default, Dec 27 2018, 07:35:06) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.2.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: clear                                                                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In [2]: %load_ext autoreload                                                                         
+
+In [3]: %autorelaod 2                                                                                
+UsageError: Line magic function `%autorelaod` not found.
+
+In [4]: %autoreload 2                                                                                
+
+In [5]: clear                                                                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In [6]: ls                                                                                           
+README.md      code_snippets/ data/          midterm.py
+
+In [7]: import midterm as m                                                                          
+
+In [8]: df = m.read_file('Cardiovascular')                                                           
+---------------------------------------------------------------------------
+FileNotFoundError                         Traceback (most recent call last)
+<ipython-input-8-af6ff3a97e62> in <module>
+----> 1 df = m.read_file('Cardiovascular')
+
+~/Documents/GitHub/CCTS40500_/midterm/midterm.py in read_file(fname)
+      6 
+      7 def read_file(fname):
+----> 8     with open(fname) as f:
+      9         content = f.readlines()
+     10 
+
+FileNotFoundError: [Errno 2] No such file or directory: 'Cardiovascular'
+
+In [9]: df = m.read_file('../data/Cardiovascular')                                                   
+---------------------------------------------------------------------------
+FileNotFoundError                         Traceback (most recent call last)
+<ipython-input-9-af6a1c86d0f8> in <module>
+----> 1 df = m.read_file('../data/Cardiovascular')
+
+~/Documents/GitHub/CCTS40500_/midterm/midterm.py in read_file(fname)
+      6 
+      7 def read_file(fname):
+----> 8     with open(fname) as f:
+      9         content = f.readlines()
+     10 
+
+FileNotFoundError: [Errno 2] No such file or directory: '../data/Cardiovascular'
+
+In [10]: ls                                                                                          
+README.md      __pycache__/   code_snippets/ data/          midterm.py
+
+In [11]: df = m.read_file('data/Cardiovascular')                                                     
+
+In [12]: df                                                                                          
+Out[12]: 
+           p_id    c_id           ...            data/Cardiovascular803  data/Cardiovascular804
+0     MNEG26099    3877           ...                               NaN                     NaN
+1     FNEG47157   11214           ...                               NaN                     NaN
+2     MNEG39023   11348           ...                               NaN                     NaN
+3     FNEG39057   12051           ...                               NaN                     NaN
+4     FNEG18003   12605           ...                               NaN                     NaN
+5     MNEG39023   13534           ...                               NaN                     NaN
+6     FNEG39113   14206           ...                               NaN                     NaN
+7     MNEG39091   15070           ...                               NaN                     NaN
+8     MNEG39003   15236           ...                               NaN                     NaN
+9     MNEG39017   15460           ...                               NaN                     NaN
+10    MNEG39049   15460           ...                               NaN                     NaN
+11    MPOS39049   17356           ...                               NaN                     NaN
+12    MNEG18003   18434           ...                               NaN                     NaN
+13    MNEG39049   18816           ...                               NaN                     NaN
+14    MNEG39023   19849           ...                               NaN                     NaN
+15    FNEG18003   21592           ...                               NaN                     NaN
+16    MNEG18003   21904           ...                               NaN                     NaN
+17    FNEG18065   23638           ...                               NaN                     NaN
+18    FNEG18059   25487           ...                               NaN                     NaN
+19    MNEG18059   25909           ...                               NaN                     NaN
+20    MNEG18003   25944           ...                               NaN                     NaN
+21    MNEG17031   27099           ...                               NaN                     NaN
+22    MNEG17031   27100           ...                               NaN                     NaN
+23    MNEG17197   27333           ...                               NaN                     NaN
+24    MNEG17031   27491           ...                               NaN                     NaN
+25    MNEG17089   27794           ...                               NaN                     NaN
+26    FNEG17197   28237           ...                               NaN                     NaN
+27    FNEG17031   28483           ...                               NaN                     NaN
+28    MNEG18097   29411           ...                               NaN                     NaN
+29    FNEG17043   31298           ...                               NaN                     NaN
+...         ...     ...           ...                               ...                     ...
+4403  MNEG13051  779079           ...                               NaN                     NaN
+4404  MNEG13255  779450           ...                               NaN                     NaN
+4405  MNEG13245  779582           ...                               NaN                     NaN
+4406  FNEG13107  779597           ...                               NaN                     NaN
+4407  FNEG13009  779670           ...                               NaN                     NaN
+4408  FNEG13247  779670           ...                               NaN                     NaN
+4409  MNEG13149  779740           ...                               NaN                     NaN
+4410  FNEG13077  779755           ...                               NaN                     NaN
+4411  MPOS13137  779820           ...                               NaN                     NaN
+4412  MNEG13137  779912           ...                               NaN                     NaN
+4413  MNEG13073  779965           ...                               NaN                     NaN
+4414  MNEG13251  780251           ...                               NaN                     NaN
+4415  MNEG13095  780957           ...                               NaN                     NaN
+4416  MNEG13121  780968           ...                               NaN                     NaN
+4417  MNEG13223  780968           ...                               NaN                     NaN
+4418  MNEG13137  781360           ...                               NaN                     NaN
+4419  MNEG13127  781517           ...                               NaN                     NaN
+4420  FNEG13185  781544           ...                               NaN                     NaN
+4421  MNEG13157  781579           ...                               NaN                     NaN
+4422  MNEG13285  781579           ...                               NaN                     NaN
+4423  MNEG13283  781658           ...                               NaN                     NaN
+4424  FNEG13073  781928           ...                               NaN                     NaN
+4425  MNEG13045  781933           ...                               NaN                     NaN
+4426  MNEG13097  781933           ...                               NaN                     NaN
+4427  FNEG13267  781973           ...                               NaN                     NaN
+4428  MNEG13267  781974           ...                               NaN                     NaN
+4429  MNEG13229  782096           ...                               NaN                     NaN
+4430  MNEG13299  782096           ...                               NaN                     NaN
+4431  MNEG13295  782146           ...                               NaN                     NaN
+4432  FNEG13023  782647           ...                               NaN                     NaN
+
+[4433 rows x 807 columns]
+
+In [13]: clear                                                                                       
+
+
+In [14]: ls                                                                                          
+README.md      __pycache__/   code_snippets/ data/          midterm.py
+
+In [15]: clear                                                                                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In [16]: ls                                                                                          
+README.md      __pycache__/   code_snippets/ data/          midterm.py
+
+In [17]: df                                                                                          
+Out[17]: 
+           p_id    c_id           ...            data/Cardiovascular803  data/Cardiovascular804
+0     MNEG26099    3877           ...                               NaN                     NaN
+1     FNEG47157   11214           ...                               NaN                     NaN
+2     MNEG39023   11348           ...                               NaN                     NaN
+3     FNEG39057   12051           ...                               NaN                     NaN
+4     FNEG18003   12605           ...                               NaN                     NaN
+5     MNEG39023   13534           ...                               NaN                     NaN
+6     FNEG39113   14206           ...                               NaN                     NaN
+7     MNEG39091   15070           ...                               NaN                     NaN
+8     MNEG39003   15236           ...                               NaN                     NaN
+9     MNEG39017   15460           ...                               NaN                     NaN
+10    MNEG39049   15460           ...                               NaN                     NaN
+11    MPOS39049   17356           ...                               NaN                     NaN
+12    MNEG18003   18434           ...                               NaN                     NaN
+13    MNEG39049   18816           ...                               NaN                     NaN
+14    MNEG39023   19849           ...                               NaN                     NaN
+15    FNEG18003   21592           ...                               NaN                     NaN
+16    MNEG18003   21904           ...                               NaN                     NaN
+17    FNEG18065   23638           ...                               NaN                     NaN
+18    FNEG18059   25487           ...                               NaN                     NaN
+19    MNEG18059   25909           ...                               NaN                     NaN
+20    MNEG18003   25944           ...                               NaN                     NaN
+21    MNEG17031   27099           ...                               NaN                     NaN
+22    MNEG17031   27100           ...                               NaN                     NaN
+23    MNEG17197   27333           ...                               NaN                     NaN
+24    MNEG17031   27491           ...                               NaN                     NaN
+25    MNEG17089   27794           ...                               NaN                     NaN
+26    FNEG17197   28237           ...                               NaN                     NaN
+27    FNEG17031   28483           ...                               NaN                     NaN
+28    MNEG18097   29411           ...                               NaN                     NaN
+29    FNEG17043   31298           ...                               NaN                     NaN
+...         ...     ...           ...                               ...                     ...
+4403  MNEG13051  779079           ...                               NaN                     NaN
+4404  MNEG13255  779450           ...                               NaN                     NaN
+4405  MNEG13245  779582           ...                               NaN                     NaN
+4406  FNEG13107  779597           ...                               NaN                     NaN
+4407  FNEG13009  779670           ...                               NaN                     NaN
+4408  FNEG13247  779670           ...                               NaN                     NaN
+4409  MNEG13149  779740           ...                               NaN                     NaN
+4410  FNEG13077  779755           ...                               NaN                     NaN
+4411  MPOS13137  779820           ...                               NaN                     NaN
+4412  MNEG13137  779912           ...                               NaN                     NaN
+4413  MNEG13073  779965           ...                               NaN                     NaN
+4414  MNEG13251  780251           ...                               NaN                     NaN
+4415  MNEG13095  780957           ...                               NaN                     NaN
+4416  MNEG13121  780968           ...                               NaN                     NaN
+4417  MNEG13223  780968           ...                               NaN                     NaN
+4418  MNEG13137  781360           ...                               NaN                     NaN
+4419  MNEG13127  781517           ...                               NaN                     NaN
+4420  FNEG13185  781544           ...                               NaN                     NaN
+4421  MNEG13157  781579           ...                               NaN                     NaN
+4422  MNEG13285  781579           ...                               NaN                     NaN
+4423  MNEG13283  781658           ...                               NaN                     NaN
+4424  FNEG13073  781928           ...                               NaN                     NaN
+4425  MNEG13045  781933           ...                               NaN                     NaN
+4426  MNEG13097  781933           ...                               NaN                     NaN
+4427  FNEG13267  781973           ...                               NaN                     NaN
+4428  MNEG13267  781974           ...                               NaN                     NaN
+4429  MNEG13229  782096           ...                               NaN                     NaN
+4430  MNEG13299  782096           ...                               NaN                     NaN
+4431  MNEG13295  782146           ...                               NaN                     NaN
+4432  FNEG13023  782647           ...                               NaN                     NaN
+
+[4433 rows x 807 columns]
+
+In [18]: df.p_id                                                                                     
+Out[18]: 
+0       MNEG26099
+1       FNEG47157
+2       MNEG39023
+3       FNEG39057
+4       FNEG18003
+5       MNEG39023
+6       FNEG39113
+7       MNEG39091
+8       MNEG39003
+9       MNEG39017
+10      MNEG39049
+11      MPOS39049
+12      MNEG18003
+13      MNEG39049
+14      MNEG39023
+15      FNEG18003
+16      MNEG18003
+17      FNEG18065
+18      FNEG18059
+19      MNEG18059
+20      MNEG18003
+21      MNEG17031
+22      MNEG17031
+23      MNEG17197
+24      MNEG17031
+25      MNEG17089
+26      FNEG17197
+27      FNEG17031
+28      MNEG18097
+29      FNEG17043
+          ...    
+4403    MNEG13051
+4404    MNEG13255
+4405    MNEG13245
+4406    FNEG13107
+4407    FNEG13009
+4408    FNEG13247
+4409    MNEG13149
+4410    FNEG13077
+4411    MPOS13137
+4412    MNEG13137
+4413    MNEG13073
+4414    MNEG13251
+4415    MNEG13095
+4416    MNEG13121
+4417    MNEG13223
+4418    MNEG13137
+4419    MNEG13127
+4420    FNEG13185
+4421    MNEG13157
+4422    MNEG13285
+4423    MNEG13283
+4424    FNEG13073
+4425    MNEG13045
+4426    MNEG13097
+4427    FNEG13267
+4428    MNEG13267
+4429    MNEG13229
+4430    MNEG13299
+4431    MNEG13295
+4432    FNEG13023
+Name: p_id, Length: 4433, dtype: object
+
+In [19]: df.p_id[0]                                                                                  
+Out[19]: 'MNEG26099'
+
+In [20]: df.p_id.apply(lambda x: x[0])                                                               
+Out[20]: 
+0       M
+1       F
+2       M
+3       F
+4       F
+5       M
+6       F
+7       M
+8       M
+9       M
+10      M
+11      M
+12      M
+13      M
+14      M
+15      F
+16      M
+17      F
+18      F
+19      M
+20      M
+21      M
+22      M
+23      M
+24      M
+25      M
+26      F
+27      F
+28      M
+29      F
+       ..
+4403    M
+4404    M
+4405    M
+4406    F
+4407    F
+4408    F
+4409    M
+4410    F
+4411    M
+4412    M
+4413    M
+4414    M
+4415    M
+4416    M
+4417    M
+4418    M
+4419    M
+4420    F
+4421    M
+4422    M
+4423    M
+4424    F
+4425    M
+4426    M
+4427    F
+4428    M
+4429    M
+4430    M
+4431    M
+4432    F
+Name: p_id, Length: 4433, dtype: object
+
+In [21]: df.p_id                                                                                     
+Out[21]: 
+0       MNEG26099
+1       FNEG47157
+2       MNEG39023
+3       FNEG39057
+4       FNEG18003
+5       MNEG39023
+6       FNEG39113
+7       MNEG39091
+8       MNEG39003
+9       MNEG39017
+10      MNEG39049
+11      MPOS39049
+12      MNEG18003
+13      MNEG39049
+14      MNEG39023
+15      FNEG18003
+16      MNEG18003
+17      FNEG18065
+18      FNEG18059
+19      MNEG18059
+20      MNEG18003
+21      MNEG17031
+22      MNEG17031
+23      MNEG17197
+24      MNEG17031
+25      MNEG17089
+26      FNEG17197
+27      FNEG17031
+28      MNEG18097
+29      FNEG17043
+          ...    
+4403    MNEG13051
+4404    MNEG13255
+4405    MNEG13245
+4406    FNEG13107
+4407    FNEG13009
+4408    FNEG13247
+4409    MNEG13149
+4410    FNEG13077
+4411    MPOS13137
+4412    MNEG13137
+4413    MNEG13073
+4414    MNEG13251
+4415    MNEG13095
+4416    MNEG13121
+4417    MNEG13223
+4418    MNEG13137
+4419    MNEG13127
+4420    FNEG13185
+4421    MNEG13157
+4422    MNEG13285
+4423    MNEG13283
+4424    FNEG13073
+4425    MNEG13045
+4426    MNEG13097
+4427    FNEG13267
+4428    MNEG13267
+4429    MNEG13229
+4430    MNEG13299
+4431    MNEG13295
+4432    FNEG13023
+Name: p_id, Length: 4433, dtype: object
+
+In [22]: df.p_id.apply(lambda x: x[1:4])                                                             
+Out[22]: 
+0       NEG
+1       NEG
+2       NEG
+3       NEG
+4       NEG
+5       NEG
+6       NEG
+7       NEG
+8       NEG
+9       NEG
+10      NEG
+11      POS
+12      NEG
+13      NEG
+14      NEG
+15      NEG
+16      NEG
+17      NEG
+18      NEG
+19      NEG
+20      NEG
+21      NEG
+22      NEG
+23      NEG
+24      NEG
+25      NEG
+26      NEG
+27      NEG
+28      NEG
+29      NEG
+       ... 
+4403    NEG
+4404    NEG
+4405    NEG
+4406    NEG
+4407    NEG
+4408    NEG
+4409    NEG
+4410    NEG
+4411    POS
+4412    NEG
+4413    NEG
+4414    NEG
+4415    NEG
+4416    NEG
+4417    NEG
+4418    NEG
+4419    NEG
+4420    NEG
+4421    NEG
+4422    NEG
+4423    NEG
+4424    NEG
+4425    NEG
+4426    NEG
+4427    NEG
+4428    NEG
+4429    NEG
+4430    NEG
+4431    NEG
+4432    NEG
+Name: p_id, Length: 4433, dtype: object
+
+In [23]: df.p_id                                                                                     
+Out[23]: 
+0       MNEG26099
+1       FNEG47157
+2       MNEG39023
+3       FNEG39057
+4       FNEG18003
+5       MNEG39023
+6       FNEG39113
+7       MNEG39091
+8       MNEG39003
+9       MNEG39017
+10      MNEG39049
+11      MPOS39049
+12      MNEG18003
+13      MNEG39049
+14      MNEG39023
+15      FNEG18003
+16      MNEG18003
+17      FNEG18065
+18      FNEG18059
+19      MNEG18059
+20      MNEG18003
+21      MNEG17031
+22      MNEG17031
+23      MNEG17197
+24      MNEG17031
+25      MNEG17089
+26      FNEG17197
+27      FNEG17031
+28      MNEG18097
+29      FNEG17043
+          ...    
+4403    MNEG13051
+4404    MNEG13255
+4405    MNEG13245
+4406    FNEG13107
+4407    FNEG13009
+4408    FNEG13247
+4409    MNEG13149
+4410    FNEG13077
+4411    MPOS13137
+4412    MNEG13137
+4413    MNEG13073
+4414    MNEG13251
+4415    MNEG13095
+4416    MNEG13121
+4417    MNEG13223
+4418    MNEG13137
+4419    MNEG13127
+4420    FNEG13185
+4421    MNEG13157
+4422    MNEG13285
+4423    MNEG13283
+4424    FNEG13073
+4425    MNEG13045
+4426    MNEG13097
+4427    FNEG13267
+4428    MNEG13267
+4429    MNEG13229
+4430    MNEG13299
+4431    MNEG13295
+4432    FNEG13023
+Name: p_id, Length: 4433, dtype: object
+
+In [24]: df.p_id                                                                                     
+Out[24]: 
+0       MNEG26099
+1       FNEG47157
+2       MNEG39023
+3       FNEG39057
+4       FNEG18003
+5       MNEG39023
+6       FNEG39113
+7       MNEG39091
+8       MNEG39003
+9       MNEG39017
+10      MNEG39049
+11      MPOS39049
+12      MNEG18003
+13      MNEG39049
+14      MNEG39023
+15      FNEG18003
+16      MNEG18003
+17      FNEG18065
+18      FNEG18059
+19      MNEG18059
+20      MNEG18003
+21      MNEG17031
+22      MNEG17031
+23      MNEG17197
+24      MNEG17031
+25      MNEG17089
+26      FNEG17197
+27      FNEG17031
+28      MNEG18097
+29      FNEG17043
+          ...    
+4403    MNEG13051
+4404    MNEG13255
+4405    MNEG13245
+4406    FNEG13107
+4407    FNEG13009
+4408    FNEG13247
+4409    MNEG13149
+4410    FNEG13077
+4411    MPOS13137
+4412    MNEG13137
+4413    MNEG13073
+4414    MNEG13251
+4415    MNEG13095
+4416    MNEG13121
+4417    MNEG13223
+4418    MNEG13137
+4419    MNEG13127
+4420    FNEG13185
+4421    MNEG13157
+4422    MNEG13285
+4423    MNEG13283
+4424    FNEG13073
+4425    MNEG13045
+4426    MNEG13097
+4427    FNEG13267
+4428    MNEG13267
+4429    MNEG13229
+4430    MNEG13299
+4431    MNEG13295
+4432    FNEG13023
+Name: p_id, Length: 4433, dtype: object
+
+In [25]: df.p_id.apply(lambda x: x[4:5])                                                             
+Out[25]: 
+0       2
+1       4
+2       3
+3       3
+4       1
+5       3
+6       3
+7       3
+8       3
+9       3
+10      3
+11      3
+12      1
+13      3
+14      3
+15      1
+16      1
+17      1
+18      1
+19      1
+20      1
+21      1
+22      1
+23      1
+24      1
+25      1
+26      1
+27      1
+28      1
+29      1
+       ..
+4403    1
+4404    1
+4405    1
+4406    1
+4407    1
+4408    1
+4409    1
+4410    1
+4411    1
+4412    1
+4413    1
+4414    1
+4415    1
+4416    1
+4417    1
+4418    1
+4419    1
+4420    1
+4421    1
+4422    1
+4423    1
+4424    1
+4425    1
+4426    1
+4427    1
+4428    1
+4429    1
+4430    1
+4431    1
+4432    1
+Name: p_id, Length: 4433, dtype: object
+
+In [26]: df.p_id.apply(lambda x: x[4:6])                                                             
+Out[26]: 
+0       26
+1       47
+2       39
+3       39
+4       18
+5       39
+6       39
+7       39
+8       39
+9       39
+10      39
+11      39
+12      18
+13      39
+14      39
+15      18
+16      18
+17      18
+18      18
+19      18
+20      18
+21      17
+22      17
+23      17
+24      17
+25      17
+26      17
+27      17
+28      18
+29      17
+        ..
+4403    13
+4404    13
+4405    13
+4406    13
+4407    13
+4408    13
+4409    13
+4410    13
+4411    13
+4412    13
+4413    13
+4414    13
+4415    13
+4416    13
+4417    13
+4418    13
+4419    13
+4420    13
+4421    13
+4422    13
+4423    13
+4424    13
+4425    13
+4426    13
+4427    13
+4428    13
+4429    13
+4430    13
+4431    13
+4432    13
+Name: p_id, Length: 4433, dtype: object
+
+In [27]: df.p_id                                                                                     
+Out[27]: 
+0       MNEG26099
+1       FNEG47157
+2       MNEG39023
+3       FNEG39057
+4       FNEG18003
+5       MNEG39023
+6       FNEG39113
+7       MNEG39091
+8       MNEG39003
+9       MNEG39017
+10      MNEG39049
+11      MPOS39049
+12      MNEG18003
+13      MNEG39049
+14      MNEG39023
+15      FNEG18003
+16      MNEG18003
+17      FNEG18065
+18      FNEG18059
+19      MNEG18059
+20      MNEG18003
+21      MNEG17031
+22      MNEG17031
+23      MNEG17197
+24      MNEG17031
+25      MNEG17089
+26      FNEG17197
+27      FNEG17031
+28      MNEG18097
+29      FNEG17043
+          ...    
+4403    MNEG13051
+4404    MNEG13255
+4405    MNEG13245
+4406    FNEG13107
+4407    FNEG13009
+4408    FNEG13247
+4409    MNEG13149
+4410    FNEG13077
+4411    MPOS13137
+4412    MNEG13137
+4413    MNEG13073
+4414    MNEG13251
+4415    MNEG13095
+4416    MNEG13121
+4417    MNEG13223
+4418    MNEG13137
+4419    MNEG13127
+4420    FNEG13185
+4421    MNEG13157
+4422    MNEG13285
+4423    MNEG13283
+4424    FNEG13073
+4425    MNEG13045
+4426    MNEG13097
+4427    FNEG13267
+4428    MNEG13267
+4429    MNEG13229
+4430    MNEG13299
+4431    MNEG13295
+4432    FNEG13023
+Name: p_id, Length: 4433, dtype: object
+
+In [28]: df['county'] = df.p_id.apply(lambda x: x[6:9])                                              
+
+In [29]: df.county                                                                                   
+Out[29]: 
+0       099
+1       157
+2       023
+3       057
+4       003
+5       023
+6       113
+7       091
+8       003
+9       017
+10      049
+11      049
+12      003
+13      049
+14      023
+15      003
+16      003
+17      065
+18      059
+19      059
+20      003
+21      031
+22      031
+23      197
+24      031
+25      089
+26      197
+27      031
+28      097
+29      043
+       ... 
+4403    051
+4404    255
+4405    245
+4406    107
+4407    009
+4408    247
+4409    149
+4410    077
+4411    137
+4412    137
+4413    073
+4414    251
+4415    095
+4416    121
+4417    223
+4418    137
+4419    127
+4420    185
+4421    157
+4422    285
+4423    283
+4424    073
+4425    045
+4426    097
+4427    267
+4428    267
+4429    229
+4430    299
+4431    295
+4432    023
+Name: county, Length: 4433, dtype: object
+
+In [30]: df.p_id                                                                                     
+Out[30]: 
+0       MNEG26099
+1       FNEG47157
+2       MNEG39023
+3       FNEG39057
+4       FNEG18003
+5       MNEG39023
+6       FNEG39113
+7       MNEG39091
+8       MNEG39003
+9       MNEG39017
+10      MNEG39049
+11      MPOS39049
+12      MNEG18003
+13      MNEG39049
+14      MNEG39023
+15      FNEG18003
+16      MNEG18003
+17      FNEG18065
+18      FNEG18059
+19      MNEG18059
+20      MNEG18003
+21      MNEG17031
+22      MNEG17031
+23      MNEG17197
+24      MNEG17031
+25      MNEG17089
+26      FNEG17197
+27      FNEG17031
+28      MNEG18097
+29      FNEG17043
+          ...    
+4403    MNEG13051
+4404    MNEG13255
+4405    MNEG13245
+4406    FNEG13107
+4407    FNEG13009
+4408    FNEG13247
+4409    MNEG13149
+4410    FNEG13077
+4411    MPOS13137
+4412    MNEG13137
+4413    MNEG13073
+4414    MNEG13251
+4415    MNEG13095
+4416    MNEG13121
+4417    MNEG13223
+4418    MNEG13137
+4419    MNEG13127
+4420    FNEG13185
+4421    MNEG13157
+4422    MNEG13285
+4423    MNEG13283
+4424    FNEG13073
+4425    MNEG13045
+4426    MNEG13097
+4427    FNEG13267
+4428    MNEG13267
+4429    MNEG13229
+4430    MNEG13299
+4431    MNEG13295
+4432    FNEG13023
+Name: p_id, Length: 4433, dtype: object
+
+In [31]: df.county                                                                                   
+Out[31]: 
+0       099
+1       157
+2       023
+3       057
+4       003
+5       023
+6       113
+7       091
+8       003
+9       017
+10      049
+11      049
+12      003
+13      049
+14      023
+15      003
+16      003
+17      065
+18      059
+19      059
+20      003
+21      031
+22      031
+23      197
+24      031
+25      089
+26      197
+27      031
+28      097
+29      043
+       ... 
+4403    051
+4404    255
+4405    245
+4406    107
+4407    009
+4408    247
+4409    149
+4410    077
+4411    137
+4412    137
+4413    073
+4414    251
+4415    095
+4416    121
+4417    223
+4418    137
+4419    127
+4420    185
+4421    157
+4422    285
+4423    283
+4424    073
+4425    045
+4426    097
+4427    267
+4428    267
+4429    229
+4430    299
+4431    295
+4432    023
+Name: county, Length: 4433, dtype: object
+
+In [32]: df['state', 'county']                                                                       
+---------------------------------------------------------------------------
+KeyError                                  Traceback (most recent call last)
+/usr/local/lib/python3.7/site-packages/pandas/core/indexes/base.py in get_loc(self, key, method, tolerance)
+   3077             try:
+-> 3078                 return self._engine.get_loc(key)
+   3079             except KeyError:
+
+pandas/_libs/index.pyx in pandas._libs.index.IndexEngine.get_loc()
+
+pandas/_libs/index.pyx in pandas._libs.index.IndexEngine.get_loc()
+
+pandas/_libs/hashtable_class_helper.pxi in pandas._libs.hashtable.PyObjectHashTable.get_item()
+
+pandas/_libs/hashtable_class_helper.pxi in pandas._libs.hashtable.PyObjectHashTable.get_item()
+
+KeyError: ('state', 'county')
+
+During handling of the above exception, another exception occurred:
+
+KeyError                                  Traceback (most recent call last)
+<ipython-input-32-a55d30071abb> in <module>
+----> 1 df['state', 'county']
+
+/usr/local/lib/python3.7/site-packages/pandas/core/frame.py in __getitem__(self, key)
+   2686             return self._getitem_multilevel(key)
+   2687         else:
+-> 2688             return self._getitem_column(key)
+   2689 
+   2690     def _getitem_column(self, key):
+
+/usr/local/lib/python3.7/site-packages/pandas/core/frame.py in _getitem_column(self, key)
+   2693         # get column
+   2694         if self.columns.is_unique:
+-> 2695             return self._get_item_cache(key)
+   2696 
+   2697         # duplicate columns & possible reduce dimensionality
+
+/usr/local/lib/python3.7/site-packages/pandas/core/generic.py in _get_item_cache(self, item)
+   2487         res = cache.get(item)
+   2488         if res is None:
+-> 2489             values = self._data.get(item)
+   2490             res = self._box_item_values(item, values)
+   2491             cache[item] = res
+
+/usr/local/lib/python3.7/site-packages/pandas/core/internals.py in get(self, item, fastpath)
+   4113 
+   4114             if not isna(item):
+-> 4115                 loc = self.items.get_loc(item)
+   4116             else:
+   4117                 indexer = np.arange(len(self.items))[isna(self.items)]
+
+/usr/local/lib/python3.7/site-packages/pandas/core/indexes/base.py in get_loc(self, key, method, tolerance)
+   3078                 return self._engine.get_loc(key)
+   3079             except KeyError:
+-> 3080                 return self._engine.get_loc(self._maybe_cast_indexer(key))
+   3081 
+   3082         indexer = self.get_indexer([key], method=method, tolerance=tolerance)
+
+pandas/_libs/index.pyx in pandas._libs.index.IndexEngine.get_loc()
+
+pandas/_libs/index.pyx in pandas._libs.index.IndexEngine.get_loc()
+
+pandas/_libs/hashtable_class_helper.pxi in pandas._libs.hashtable.PyObjectHashTable.get_item()
+
+pandas/_libs/hashtable_class_helper.pxi in pandas._libs.hashtable.PyObjectHashTable.get_item()
+
+KeyError: ('state', 'county')
+
+In [33]: clear                                                                                       
+
+
+In [34]:     df['sex'] = df.p_id.apply(lambda x: x[0]) 
+    ...:     df['diagnosis'] = df.p_id.apply(lambda x: x[1:4]) 
+    ...:     df['state'] = df.p_id.apply(lambda x: x[4:6]) 
+    ...:     df['county'] = df.p_id.apply(lambda x: x[6:9])                                          
+
+In [35]:                                                                                             
+
+In [35]: clear                                                                                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In [36]: df                                                                                          
+Out[36]: 
+           p_id    c_id  data/Cardiovascular0  ...    sex  diagnosis  state
+0     MNEG26099    3877                     0  ...      M        NEG     26
+1     FNEG47157   11214                     0  ...      F        NEG     47
+2     MNEG39023   11348                     0  ...      M        NEG     39
+3     FNEG39057   12051                     0  ...      F        NEG     39
+4     FNEG18003   12605                     0  ...      F        NEG     18
+5     MNEG39023   13534                     0  ...      M        NEG     39
+6     FNEG39113   14206                     0  ...      F        NEG     39
+7     MNEG39091   15070                     0  ...      M        NEG     39
+8     MNEG39003   15236                     0  ...      M        NEG     39
+9     MNEG39017   15460                     0  ...      M        NEG     39
+10    MNEG39049   15460                     0  ...      M        NEG     39
+11    MPOS39049   17356                     0  ...      M        POS     39
+12    MNEG18003   18434                     0  ...      M        NEG     18
+13    MNEG39049   18816                     0  ...      M        NEG     39
+14    MNEG39023   19849                     0  ...      M        NEG     39
+15    FNEG18003   21592                     0  ...      F        NEG     18
+16    MNEG18003   21904                     0  ...      M        NEG     18
+17    FNEG18065   23638                     0  ...      F        NEG     18
+18    FNEG18059   25487                     0  ...      F        NEG     18
+19    MNEG18059   25909                     0  ...      M        NEG     18
+20    MNEG18003   25944                     0  ...      M        NEG     18
+21    MNEG17031   27099                     0  ...      M        NEG     17
+22    MNEG17031   27100                     0  ...      M        NEG     17
+23    MNEG17197   27333                     0  ...      M        NEG     17
+24    MNEG17031   27491                     0  ...      M        NEG     17
+25    MNEG17089   27794                     0  ...      M        NEG     17
+26    FNEG17197   28237                     0  ...      F        NEG     17
+27    FNEG17031   28483                     0  ...      F        NEG     17
+28    MNEG18097   29411                     0  ...      M        NEG     18
+29    FNEG17043   31298                     0  ...      F        NEG     17
+...         ...     ...                   ...  ...    ...        ...    ...
+4403  MNEG13051  779079                     0  ...      M        NEG     13
+4404  MNEG13255  779450                     0  ...      M        NEG     13
+4405  MNEG13245  779582                     0  ...      M        NEG     13
+4406  FNEG13107  779597                     0  ...      F        NEG     13
+4407  FNEG13009  779670                     0  ...      F        NEG     13
+4408  FNEG13247  779670                     0  ...      F        NEG     13
+4409  MNEG13149  779740                     0  ...      M        NEG     13
+4410  FNEG13077  779755                     0  ...      F        NEG     13
+4411  MPOS13137  779820                     0  ...      M        POS     13
+4412  MNEG13137  779912                     0  ...      M        NEG     13
+4413  MNEG13073  779965                     0  ...      M        NEG     13
+4414  MNEG13251  780251                     0  ...      M        NEG     13
+4415  MNEG13095  780957                     0  ...      M        NEG     13
+4416  MNEG13121  780968                     0  ...      M        NEG     13
+4417  MNEG13223  780968                     0  ...      M        NEG     13
+4418  MNEG13137  781360                     0  ...      M        NEG     13
+4419  MNEG13127  781517                     0  ...      M        NEG     13
+4420  FNEG13185  781544                     0  ...      F        NEG     13
+4421  MNEG13157  781579                     0  ...      M        NEG     13
+4422  MNEG13285  781579                     0  ...      M        NEG     13
+4423  MNEG13283  781658                     0  ...      M        NEG     13
+4424  FNEG13073  781928                     0  ...      F        NEG     13
+4425  MNEG13045  781933                     0  ...      M        NEG     13
+4426  MNEG13097  781933                     0  ...      M        NEG     13
+4427  FNEG13267  781973                     0  ...      F        NEG     13
+4428  MNEG13267  781974                     0  ...      M        NEG     13
+4429  MNEG13229  782096                     0  ...      M        NEG     13
+4430  MNEG13299  782096                     0  ...      M        NEG     13
+4431  MNEG13295  782146                     0  ...      M        NEG     13
+4432  FNEG13023  782647                     0  ...      F        NEG     13
+
+[4433 rows x 811 columns]
+
+In [37]: df[1:]                                                                                      
+Out[37]: 
+           p_id    c_id  data/Cardiovascular0  ...    sex  diagnosis  state
+1     FNEG47157   11214                     0  ...      F        NEG     47
+2     MNEG39023   11348                     0  ...      M        NEG     39
+3     FNEG39057   12051                     0  ...      F        NEG     39
+4     FNEG18003   12605                     0  ...      F        NEG     18
+5     MNEG39023   13534                     0  ...      M        NEG     39
+6     FNEG39113   14206                     0  ...      F        NEG     39
+7     MNEG39091   15070                     0  ...      M        NEG     39
+8     MNEG39003   15236                     0  ...      M        NEG     39
+9     MNEG39017   15460                     0  ...      M        NEG     39
+10    MNEG39049   15460                     0  ...      M        NEG     39
+11    MPOS39049   17356                     0  ...      M        POS     39
+12    MNEG18003   18434                     0  ...      M        NEG     18
+13    MNEG39049   18816                     0  ...      M        NEG     39
+14    MNEG39023   19849                     0  ...      M        NEG     39
+15    FNEG18003   21592                     0  ...      F        NEG     18
+16    MNEG18003   21904                     0  ...      M        NEG     18
+17    FNEG18065   23638                     0  ...      F        NEG     18
+18    FNEG18059   25487                     0  ...      F        NEG     18
+19    MNEG18059   25909                     0  ...      M        NEG     18
+20    MNEG18003   25944                     0  ...      M        NEG     18
+21    MNEG17031   27099                     0  ...      M        NEG     17
+22    MNEG17031   27100                     0  ...      M        NEG     17
+23    MNEG17197   27333                     0  ...      M        NEG     17
+24    MNEG17031   27491                     0  ...      M        NEG     17
+25    MNEG17089   27794                     0  ...      M        NEG     17
+26    FNEG17197   28237                     0  ...      F        NEG     17
+27    FNEG17031   28483                     0  ...      F        NEG     17
+28    MNEG18097   29411                     0  ...      M        NEG     18
+29    FNEG17043   31298                     0  ...      F        NEG     17
+30    FNEG17089   31298                     0  ...      F        NEG     17
+...         ...     ...                   ...  ...    ...        ...    ...
+4403  MNEG13051  779079                     0  ...      M        NEG     13
+4404  MNEG13255  779450                     0  ...      M        NEG     13
+4405  MNEG13245  779582                     0  ...      M        NEG     13
+4406  FNEG13107  779597                     0  ...      F        NEG     13
+4407  FNEG13009  779670                     0  ...      F        NEG     13
+4408  FNEG13247  779670                     0  ...      F        NEG     13
+4409  MNEG13149  779740                     0  ...      M        NEG     13
+4410  FNEG13077  779755                     0  ...      F        NEG     13
+4411  MPOS13137  779820                     0  ...      M        POS     13
+4412  MNEG13137  779912                     0  ...      M        NEG     13
+4413  MNEG13073  779965                     0  ...      M        NEG     13
+4414  MNEG13251  780251                     0  ...      M        NEG     13
+4415  MNEG13095  780957                     0  ...      M        NEG     13
+4416  MNEG13121  780968                     0  ...      M        NEG     13
+4417  MNEG13223  780968                     0  ...      M        NEG     13
+4418  MNEG13137  781360                     0  ...      M        NEG     13
+4419  MNEG13127  781517                     0  ...      M        NEG     13
+4420  FNEG13185  781544                     0  ...      F        NEG     13
+4421  MNEG13157  781579                     0  ...      M        NEG     13
+4422  MNEG13285  781579                     0  ...      M        NEG     13
+4423  MNEG13283  781658                     0  ...      M        NEG     13
+4424  FNEG13073  781928                     0  ...      F        NEG     13
+4425  MNEG13045  781933                     0  ...      M        NEG     13
+4426  MNEG13097  781933                     0  ...      M        NEG     13
+4427  FNEG13267  781973                     0  ...      F        NEG     13
+4428  MNEG13267  781974                     0  ...      M        NEG     13
+4429  MNEG13229  782096                     0  ...      M        NEG     13
+4430  MNEG13299  782096                     0  ...      M        NEG     13
+4431  MNEG13295  782146                     0  ...      M        NEG     13
+4432  FNEG13023  782647                     0  ...      F        NEG     13
+
+[4432 rows x 811 columns]
+
+In [38]: df                                                                                          
+Out[38]: 
+           p_id    c_id  data/Cardiovascular0  ...    sex  diagnosis  state
+0     MNEG26099    3877                     0  ...      M        NEG     26
+1     FNEG47157   11214                     0  ...      F        NEG     47
+2     MNEG39023   11348                     0  ...      M        NEG     39
+3     FNEG39057   12051                     0  ...      F        NEG     39
+4     FNEG18003   12605                     0  ...      F        NEG     18
+5     MNEG39023   13534                     0  ...      M        NEG     39
+6     FNEG39113   14206                     0  ...      F        NEG     39
+7     MNEG39091   15070                     0  ...      M        NEG     39
+8     MNEG39003   15236                     0  ...      M        NEG     39
+9     MNEG39017   15460                     0  ...      M        NEG     39
+10    MNEG39049   15460                     0  ...      M        NEG     39
+11    MPOS39049   17356                     0  ...      M        POS     39
+12    MNEG18003   18434                     0  ...      M        NEG     18
+13    MNEG39049   18816                     0  ...      M        NEG     39
+14    MNEG39023   19849                     0  ...      M        NEG     39
+15    FNEG18003   21592                     0  ...      F        NEG     18
+16    MNEG18003   21904                     0  ...      M        NEG     18
+17    FNEG18065   23638                     0  ...      F        NEG     18
+18    FNEG18059   25487                     0  ...      F        NEG     18
+19    MNEG18059   25909                     0  ...      M        NEG     18
+20    MNEG18003   25944                     0  ...      M        NEG     18
+21    MNEG17031   27099                     0  ...      M        NEG     17
+22    MNEG17031   27100                     0  ...      M        NEG     17
+23    MNEG17197   27333                     0  ...      M        NEG     17
+24    MNEG17031   27491                     0  ...      M        NEG     17
+25    MNEG17089   27794                     0  ...      M        NEG     17
+26    FNEG17197   28237                     0  ...      F        NEG     17
+27    FNEG17031   28483                     0  ...      F        NEG     17
+28    MNEG18097   29411                     0  ...      M        NEG     18
+29    FNEG17043   31298                     0  ...      F        NEG     17
+...         ...     ...                   ...  ...    ...        ...    ...
+4403  MNEG13051  779079                     0  ...      M        NEG     13
+4404  MNEG13255  779450                     0  ...      M        NEG     13
+4405  MNEG13245  779582                     0  ...      M        NEG     13
+4406  FNEG13107  779597                     0  ...      F        NEG     13
+4407  FNEG13009  779670                     0  ...      F        NEG     13
+4408  FNEG13247  779670                     0  ...      F        NEG     13
+4409  MNEG13149  779740                     0  ...      M        NEG     13
+4410  FNEG13077  779755                     0  ...      F        NEG     13
+4411  MPOS13137  779820                     0  ...      M        POS     13
+4412  MNEG13137  779912                     0  ...      M        NEG     13
+4413  MNEG13073  779965                     0  ...      M        NEG     13
+4414  MNEG13251  780251                     0  ...      M        NEG     13
+4415  MNEG13095  780957                     0  ...      M        NEG     13
+4416  MNEG13121  780968                     0  ...      M        NEG     13
+4417  MNEG13223  780968                     0  ...      M        NEG     13
+4418  MNEG13137  781360                     0  ...      M        NEG     13
+4419  MNEG13127  781517                     0  ...      M        NEG     13
+4420  FNEG13185  781544                     0  ...      F        NEG     13
+4421  MNEG13157  781579                     0  ...      M        NEG     13
+4422  MNEG13285  781579                     0  ...      M        NEG     13
+4423  MNEG13283  781658                     0  ...      M        NEG     13
+4424  FNEG13073  781928                     0  ...      F        NEG     13
+4425  MNEG13045  781933                     0  ...      M        NEG     13
+4426  MNEG13097  781933                     0  ...      M        NEG     13
+4427  FNEG13267  781973                     0  ...      F        NEG     13
+4428  MNEG13267  781974                     0  ...      M        NEG     13
+4429  MNEG13229  782096                     0  ...      M        NEG     13
+4430  MNEG13299  782096                     0  ...      M        NEG     13
+4431  MNEG13295  782146                     0  ...      M        NEG     13
+4432  FNEG13023  782647                     0  ...      F        NEG     13
+
+[4433 rows x 811 columns]
+
+In [39]: df[1:,]                                                                                     
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-39-7e9261aff7dc> in <module>
+----> 1 df[1:,]
+
+/usr/local/lib/python3.7/site-packages/pandas/core/frame.py in __getitem__(self, key)
+   2686             return self._getitem_multilevel(key)
+   2687         else:
+-> 2688             return self._getitem_column(key)
+   2689 
+   2690     def _getitem_column(self, key):
+
+/usr/local/lib/python3.7/site-packages/pandas/core/frame.py in _getitem_column(self, key)
+   2693         # get column
+   2694         if self.columns.is_unique:
+-> 2695             return self._get_item_cache(key)
+   2696 
+   2697         # duplicate columns & possible reduce dimensionality
+
+/usr/local/lib/python3.7/site-packages/pandas/core/generic.py in _get_item_cache(self, item)
+   2485         """Return the cached item, item represents a label indexer."""
+   2486         cache = self._item_cache
+-> 2487         res = cache.get(item)
+   2488         if res is None:
+   2489             values = self._data.get(item)
+
+TypeError: unhashable type: 'slice'
+
+In [40]: df[1:,:]                                                                                    
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-40-cdc722881873> in <module>
+----> 1 df[1:,:]
+
+/usr/local/lib/python3.7/site-packages/pandas/core/frame.py in __getitem__(self, key)
+   2686             return self._getitem_multilevel(key)
+   2687         else:
+-> 2688             return self._getitem_column(key)
+   2689 
+   2690     def _getitem_column(self, key):
+
+/usr/local/lib/python3.7/site-packages/pandas/core/frame.py in _getitem_column(self, key)
+   2693         # get column
+   2694         if self.columns.is_unique:
+-> 2695             return self._get_item_cache(key)
+   2696 
+   2697         # duplicate columns & possible reduce dimensionality
+
+/usr/local/lib/python3.7/site-packages/pandas/core/generic.py in _get_item_cache(self, item)
+   2485         """Return the cached item, item represents a label indexer."""
+   2486         cache = self._item_cache
+-> 2487         res = cache.get(item)
+   2488         if res is None:
+   2489             values = self._data.get(item)
+
+TypeError: unhashable type: 'slice'
+
+In [41]: df[:, 1:]                                                                                   
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-41-d236ae6831dd> in <module>
+----> 1 df[:, 1:]
+
+/usr/local/lib/python3.7/site-packages/pandas/core/frame.py in __getitem__(self, key)
+   2686             return self._getitem_multilevel(key)
+   2687         else:
+-> 2688             return self._getitem_column(key)
+   2689 
+   2690     def _getitem_column(self, key):
+
+/usr/local/lib/python3.7/site-packages/pandas/core/frame.py in _getitem_column(self, key)
+   2693         # get column
+   2694         if self.columns.is_unique:
+-> 2695             return self._get_item_cache(key)
+   2696 
+   2697         # duplicate columns & possible reduce dimensionality
+
+/usr/local/lib/python3.7/site-packages/pandas/core/generic.py in _get_item_cache(self, item)
+   2485         """Return the cached item, item represents a label indexer."""
+   2486         cache = self._item_cache
+-> 2487         res = cache.get(item)
+   2488         if res is None:
+   2489             values = self._data.get(item)
+
+TypeError: unhashable type: 'slice'
+
+In [42]: df.ix[:, 1:]                                                                                
+/usr/local/bin/ipython3:1: DeprecationWarning: 
+.ix is deprecated. Please use
+.loc for label based indexing or
+.iloc for positional indexing
+
+See the documentation here:
+http://pandas.pydata.org/pandas-docs/stable/indexing.html#ix-indexer-is-deprecated
+  #!/usr/local/opt/python/bin/python3.7
+Out[42]: 
+        c_id  data/Cardiovascular0  data/Cardiovascular1  ...    sex  diagnosis  state
+0       3877                     0                     0  ...      M        NEG     26
+1      11214                     0                     0  ...      F        NEG     47
+2      11348                     0                     0  ...      M        NEG     39
+3      12051                     0                     0  ...      F        NEG     39
+4      12605                     0                     0  ...      F        NEG     18
+5      13534                     0                     0  ...      M        NEG     39
+6      14206                     0                     0  ...      F        NEG     39
+7      15070                     0                     0  ...      M        NEG     39
+8      15236                     0                     0  ...      M        NEG     39
+9      15460                     0                     0  ...      M        NEG     39
+10     15460                     0                     0  ...      M        NEG     39
+11     17356                     0                     0  ...      M        POS     39
+12     18434                     0                     0  ...      M        NEG     18
+13     18816                     0                     0  ...      M        NEG     39
+14     19849                     0                     0  ...      M        NEG     39
+15     21592                     0                     0  ...      F        NEG     18
+16     21904                     0                     0  ...      M        NEG     18
+17     23638                     0                     0  ...      F        NEG     18
+18     25487                     0                     0  ...      F        NEG     18
+19     25909                     0                     0  ...      M        NEG     18
+20     25944                     0                     0  ...      M        NEG     18
+21     27099                     0                     0  ...      M        NEG     17
+22     27100                     0                     0  ...      M        NEG     17
+23     27333                     0                     0  ...      M        NEG     17
+24     27491                     0                     0  ...      M        NEG     17
+25     27794                     0                     0  ...      M        NEG     17
+26     28237                     0                     0  ...      F        NEG     17
+27     28483                     0                     0  ...      F        NEG     17
+28     29411                     0                     0  ...      M        NEG     18
+29     31298                     0                     0  ...      F        NEG     17
+...      ...                   ...                   ...  ...    ...        ...    ...
+4403  779079                     0                     0  ...      M        NEG     13
+4404  779450                     0                     0  ...      M        NEG     13
+4405  779582                     0                     0  ...      M        NEG     13
+4406  779597                     0                     0  ...      F        NEG     13
+4407  779670                     0                     0  ...      F        NEG     13
+4408  779670                     0                     0  ...      F        NEG     13
+4409  779740                     0                     0  ...      M        NEG     13
+4410  779755                     0                     0  ...      F        NEG     13
+4411  779820                     0                     0  ...      M        POS     13
+4412  779912                     0                     0  ...      M        NEG     13
+4413  779965                     0                     0  ...      M        NEG     13
+4414  780251                     0                     0  ...      M        NEG     13
+4415  780957                     0                     0  ...      M        NEG     13
+4416  780968                     0                     0  ...      M        NEG     13
+4417  780968                     0                     0  ...      M        NEG     13
+4418  781360                     0                     0  ...      M        NEG     13
+4419  781517                     0                     0  ...      M        NEG     13
+4420  781544                     0                     0  ...      F        NEG     13
+4421  781579                     0                     0  ...      M        NEG     13
+4422  781579                     0                     0  ...      M        NEG     13
+4423  781658                     0                     0  ...      M        NEG     13
+4424  781928                     0                     0  ...      F        NEG     13
+4425  781933                     0                     0  ...      M        NEG     13
+4426  781933                     0                     0  ...      M        NEG     13
+4427  781973                     0                     0  ...      F        NEG     13
+4428  781974                     0                     0  ...      M        NEG     13
+4429  782096                     0                     0  ...      M        NEG     13
+4430  782096                     0                     0  ...      M        NEG     13
+4431  782146                     0                     0  ...      M        NEG     13
+4432  782647                     0                     0  ...      F        NEG     13
+
+[4433 rows x 810 columns]
+
+In [43]: df = m.read_file('data/Cardiovascular)                                                      
+  File "<ipython-input-43-bd52bd80ac60>", line 1
+    df = m.read_file('data/Cardiovascular)
+                                          ^
+SyntaxError: EOL while scanning string literal
+
+
+In [44]: df = m.read_file('data/Cardiovascular')                                                     
+
+In [45]: df                                                                                          
+Out[45]: 
+           p_id    c_id           ...            data/Cardiovascular803  data/Cardiovascular804
+0     MNEG26099    3877           ...                               NaN                     NaN
+1     FNEG47157   11214           ...                               NaN                     NaN
+2     MNEG39023   11348           ...                               NaN                     NaN
+3     FNEG39057   12051           ...                               NaN                     NaN
+4     FNEG18003   12605           ...                               NaN                     NaN
+5     MNEG39023   13534           ...                               NaN                     NaN
+6     FNEG39113   14206           ...                               NaN                     NaN
+7     MNEG39091   15070           ...                               NaN                     NaN
+8     MNEG39003   15236           ...                               NaN                     NaN
+9     MNEG39017   15460           ...                               NaN                     NaN
+10    MNEG39049   15460           ...                               NaN                     NaN
+11    MPOS39049   17356           ...                               NaN                     NaN
+12    MNEG18003   18434           ...                               NaN                     NaN
+13    MNEG39049   18816           ...                               NaN                     NaN
+14    MNEG39023   19849           ...                               NaN                     NaN
+15    FNEG18003   21592           ...                               NaN                     NaN
+16    MNEG18003   21904           ...                               NaN                     NaN
+17    FNEG18065   23638           ...                               NaN                     NaN
+18    FNEG18059   25487           ...                               NaN                     NaN
+19    MNEG18059   25909           ...                               NaN                     NaN
+20    MNEG18003   25944           ...                               NaN                     NaN
+21    MNEG17031   27099           ...                               NaN                     NaN
+22    MNEG17031   27100           ...                               NaN                     NaN
+23    MNEG17197   27333           ...                               NaN                     NaN
+24    MNEG17031   27491           ...                               NaN                     NaN
+25    MNEG17089   27794           ...                               NaN                     NaN
+26    FNEG17197   28237           ...                               NaN                     NaN
+27    FNEG17031   28483           ...                               NaN                     NaN
+28    MNEG18097   29411           ...                               NaN                     NaN
+29    FNEG17043   31298           ...                               NaN                     NaN
+...         ...     ...           ...                               ...                     ...
+4403  MNEG13051  779079           ...                               NaN                     NaN
+4404  MNEG13255  779450           ...                               NaN                     NaN
+4405  MNEG13245  779582           ...                               NaN                     NaN
+4406  FNEG13107  779597           ...                               NaN                     NaN
+4407  FNEG13009  779670           ...                               NaN                     NaN
+4408  FNEG13247  779670           ...                               NaN                     NaN
+4409  MNEG13149  779740           ...                               NaN                     NaN
+4410  FNEG13077  779755           ...                               NaN                     NaN
+4411  MPOS13137  779820           ...                               NaN                     NaN
+4412  MNEG13137  779912           ...                               NaN                     NaN
+4413  MNEG13073  779965           ...                               NaN                     NaN
+4414  MNEG13251  780251           ...                               NaN                     NaN
+4415  MNEG13095  780957           ...                               NaN                     NaN
+4416  MNEG13121  780968           ...                               NaN                     NaN
+4417  MNEG13223  780968           ...                               NaN                     NaN
+4418  MNEG13137  781360           ...                               NaN                     NaN
+4419  MNEG13127  781517           ...                               NaN                     NaN
+4420  FNEG13185  781544           ...                               NaN                     NaN
+4421  MNEG13157  781579           ...                               NaN                     NaN
+4422  MNEG13285  781579           ...                               NaN                     NaN
+4423  MNEG13283  781658           ...                               NaN                     NaN
+4424  FNEG13073  781928           ...                               NaN                     NaN
+4425  MNEG13045  781933           ...                               NaN                     NaN
+4426  MNEG13097  781933           ...                               NaN                     NaN
+4427  FNEG13267  781973           ...                               NaN                     NaN
+4428  MNEG13267  781974           ...                               NaN                     NaN
+4429  MNEG13229  782096           ...                               NaN                     NaN
+4430  MNEG13299  782096           ...                               NaN                     NaN
+4431  MNEG13295  782146           ...                               NaN                     NaN
+4432  FNEG13023  782647           ...                               NaN                     NaN
+
+[4433 rows x 807 columns]
+
+In [46]: df                                                                                          
+Out[46]: 
+           p_id    c_id           ...            data/Cardiovascular803  data/Cardiovascular804
+0     MNEG26099    3877           ...                               NaN                     NaN
+1     FNEG47157   11214           ...                               NaN                     NaN
+2     MNEG39023   11348           ...                               NaN                     NaN
+3     FNEG39057   12051           ...                               NaN                     NaN
+4     FNEG18003   12605           ...                               NaN                     NaN
+5     MNEG39023   13534           ...                               NaN                     NaN
+6     FNEG39113   14206           ...                               NaN                     NaN
+7     MNEG39091   15070           ...                               NaN                     NaN
+8     MNEG39003   15236           ...                               NaN                     NaN
+9     MNEG39017   15460           ...                               NaN                     NaN
+10    MNEG39049   15460           ...                               NaN                     NaN
+11    MPOS39049   17356           ...                               NaN                     NaN
+12    MNEG18003   18434           ...                               NaN                     NaN
+13    MNEG39049   18816           ...                               NaN                     NaN
+14    MNEG39023   19849           ...                               NaN                     NaN
+15    FNEG18003   21592           ...                               NaN                     NaN
+16    MNEG18003   21904           ...                               NaN                     NaN
+17    FNEG18065   23638           ...                               NaN                     NaN
+18    FNEG18059   25487           ...                               NaN                     NaN
+19    MNEG18059   25909           ...                               NaN                     NaN
+20    MNEG18003   25944           ...                               NaN                     NaN
+21    MNEG17031   27099           ...                               NaN                     NaN
+22    MNEG17031   27100           ...                               NaN                     NaN
+23    MNEG17197   27333           ...                               NaN                     NaN
+24    MNEG17031   27491           ...                               NaN                     NaN
+25    MNEG17089   27794           ...                               NaN                     NaN
+26    FNEG17197   28237           ...                               NaN                     NaN
+27    FNEG17031   28483           ...                               NaN                     NaN
+28    MNEG18097   29411           ...                               NaN                     NaN
+29    FNEG17043   31298           ...                               NaN                     NaN
+...         ...     ...           ...                               ...                     ...
+4403  MNEG13051  779079           ...                               NaN                     NaN
+4404  MNEG13255  779450           ...                               NaN                     NaN
+4405  MNEG13245  779582           ...                               NaN                     NaN
+4406  FNEG13107  779597           ...                               NaN                     NaN
+4407  FNEG13009  779670           ...                               NaN                     NaN
+4408  FNEG13247  779670           ...                               NaN                     NaN
+4409  MNEG13149  779740           ...                               NaN                     NaN
+4410  FNEG13077  779755           ...                               NaN                     NaN
+4411  MPOS13137  779820           ...                               NaN                     NaN
+4412  MNEG13137  779912           ...                               NaN                     NaN
+4413  MNEG13073  779965           ...                               NaN                     NaN
+4414  MNEG13251  780251           ...                               NaN                     NaN
+4415  MNEG13095  780957           ...                               NaN                     NaN
+4416  MNEG13121  780968           ...                               NaN                     NaN
+4417  MNEG13223  780968           ...                               NaN                     NaN
+4418  MNEG13137  781360           ...                               NaN                     NaN
+4419  MNEG13127  781517           ...                               NaN                     NaN
+4420  FNEG13185  781544           ...                               NaN                     NaN
+4421  MNEG13157  781579           ...                               NaN                     NaN
+4422  MNEG13285  781579           ...                               NaN                     NaN
+4423  MNEG13283  781658           ...                               NaN                     NaN
+4424  FNEG13073  781928           ...                               NaN                     NaN
+4425  MNEG13045  781933           ...                               NaN                     NaN
+4426  MNEG13097  781933           ...                               NaN                     NaN
+4427  FNEG13267  781973           ...                               NaN                     NaN
+4428  MNEG13267  781974           ...                               NaN                     NaN
+4429  MNEG13229  782096           ...                               NaN                     NaN
+4430  MNEG13299  782096           ...                               NaN                     NaN
+4431  MNEG13295  782146           ...                               NaN                     NaN
+4432  FNEG13023  782647           ...                               NaN                     NaN
+
+[4433 rows x 807 columns]
+
+In [47]: df = m.read_file('data/Cardiovascular')                                                     
+
+In [48]: df                                                                                          
+Out[48]: 
+           p_id    c_id           ...            data/Cardiovascular803  data/Cardiovascular804
+0     MNEG26099    3877           ...                               NaN                     NaN
+1     FNEG47157   11214           ...                               NaN                     NaN
+2     MNEG39023   11348           ...                               NaN                     NaN
+3     FNEG39057   12051           ...                               NaN                     NaN
+4     FNEG18003   12605           ...                               NaN                     NaN
+5     MNEG39023   13534           ...                               NaN                     NaN
+6     FNEG39113   14206           ...                               NaN                     NaN
+7     MNEG39091   15070           ...                               NaN                     NaN
+8     MNEG39003   15236           ...                               NaN                     NaN
+9     MNEG39017   15460           ...                               NaN                     NaN
+10    MNEG39049   15460           ...                               NaN                     NaN
+11    MPOS39049   17356           ...                               NaN                     NaN
+12    MNEG18003   18434           ...                               NaN                     NaN
+13    MNEG39049   18816           ...                               NaN                     NaN
+14    MNEG39023   19849           ...                               NaN                     NaN
+15    FNEG18003   21592           ...                               NaN                     NaN
+16    MNEG18003   21904           ...                               NaN                     NaN
+17    FNEG18065   23638           ...                               NaN                     NaN
+18    FNEG18059   25487           ...                               NaN                     NaN
+19    MNEG18059   25909           ...                               NaN                     NaN
+20    MNEG18003   25944           ...                               NaN                     NaN
+21    MNEG17031   27099           ...                               NaN                     NaN
+22    MNEG17031   27100           ...                               NaN                     NaN
+23    MNEG17197   27333           ...                               NaN                     NaN
+24    MNEG17031   27491           ...                               NaN                     NaN
+25    MNEG17089   27794           ...                               NaN                     NaN
+26    FNEG17197   28237           ...                               NaN                     NaN
+27    FNEG17031   28483           ...                               NaN                     NaN
+28    MNEG18097   29411           ...                               NaN                     NaN
+29    FNEG17043   31298           ...                               NaN                     NaN
+...         ...     ...           ...                               ...                     ...
+4403  MNEG13051  779079           ...                               NaN                     NaN
+4404  MNEG13255  779450           ...                               NaN                     NaN
+4405  MNEG13245  779582           ...                               NaN                     NaN
+4406  FNEG13107  779597           ...                               NaN                     NaN
+4407  FNEG13009  779670           ...                               NaN                     NaN
+4408  FNEG13247  779670           ...                               NaN                     NaN
+4409  MNEG13149  779740           ...                               NaN                     NaN
+4410  FNEG13077  779755           ...                               NaN                     NaN
+4411  MPOS13137  779820           ...                               NaN                     NaN
+4412  MNEG13137  779912           ...                               NaN                     NaN
+4413  MNEG13073  779965           ...                               NaN                     NaN
+4414  MNEG13251  780251           ...                               NaN                     NaN
+4415  MNEG13095  780957           ...                               NaN                     NaN
+4416  MNEG13121  780968           ...                               NaN                     NaN
+4417  MNEG13223  780968           ...                               NaN                     NaN
+4418  MNEG13137  781360           ...                               NaN                     NaN
+4419  MNEG13127  781517           ...                               NaN                     NaN
+4420  FNEG13185  781544           ...                               NaN                     NaN
+4421  MNEG13157  781579           ...                               NaN                     NaN
+4422  MNEG13285  781579           ...                               NaN                     NaN
+4423  MNEG13283  781658           ...                               NaN                     NaN
+4424  FNEG13073  781928           ...                               NaN                     NaN
+4425  MNEG13045  781933           ...                               NaN                     NaN
+4426  MNEG13097  781933           ...                               NaN                     NaN
+4427  FNEG13267  781973           ...                               NaN                     NaN
+4428  MNEG13267  781974           ...                               NaN                     NaN
+4429  MNEG13229  782096           ...                               NaN                     NaN
+4430  MNEG13299  782096           ...                               NaN                     NaN
+4431  MNEG13295  782146           ...                               NaN                     NaN
+4432  FNEG13023  782647           ...                               NaN                     NaN
+
+[4433 rows x 807 columns]
+
+In [49]: df = m.read_file('data/Cardiovascular')                                                     
+
+In [50]: df                                                                                          
+Out[50]: 
+           p_id    c_id           ...            data/Cardiovascular803  data/Cardiovascular804
+0     MNEG26099    3877           ...                               NaN                     NaN
+1     FNEG47157   11214           ...                               NaN                     NaN
+2     MNEG39023   11348           ...                               NaN                     NaN
+3     FNEG39057   12051           ...                               NaN                     NaN
+4     FNEG18003   12605           ...                               NaN                     NaN
+5     MNEG39023   13534           ...                               NaN                     NaN
+6     FNEG39113   14206           ...                               NaN                     NaN
+7     MNEG39091   15070           ...                               NaN                     NaN
+8     MNEG39003   15236           ...                               NaN                     NaN
+9     MNEG39017   15460           ...                               NaN                     NaN
+10    MNEG39049   15460           ...                               NaN                     NaN
+11    MPOS39049   17356           ...                               NaN                     NaN
+12    MNEG18003   18434           ...                               NaN                     NaN
+13    MNEG39049   18816           ...                               NaN                     NaN
+14    MNEG39023   19849           ...                               NaN                     NaN
+15    FNEG18003   21592           ...                               NaN                     NaN
+16    MNEG18003   21904           ...                               NaN                     NaN
+17    FNEG18065   23638           ...                               NaN                     NaN
+18    FNEG18059   25487           ...                               NaN                     NaN
+19    MNEG18059   25909           ...                               NaN                     NaN
+20    MNEG18003   25944           ...                               NaN                     NaN
+21    MNEG17031   27099           ...                               NaN                     NaN
+22    MNEG17031   27100           ...                               NaN                     NaN
+23    MNEG17197   27333           ...                               NaN                     NaN
+24    MNEG17031   27491           ...                               NaN                     NaN
+25    MNEG17089   27794           ...                               NaN                     NaN
+26    FNEG17197   28237           ...                               NaN                     NaN
+27    FNEG17031   28483           ...                               NaN                     NaN
+28    MNEG18097   29411           ...                               NaN                     NaN
+29    FNEG17043   31298           ...                               NaN                     NaN
+...         ...     ...           ...                               ...                     ...
+4403  MNEG13051  779079           ...                               NaN                     NaN
+4404  MNEG13255  779450           ...                               NaN                     NaN
+4405  MNEG13245  779582           ...                               NaN                     NaN
+4406  FNEG13107  779597           ...                               NaN                     NaN
+4407  FNEG13009  779670           ...                               NaN                     NaN
+4408  FNEG13247  779670           ...                               NaN                     NaN
+4409  MNEG13149  779740           ...                               NaN                     NaN
+4410  FNEG13077  779755           ...                               NaN                     NaN
+4411  MPOS13137  779820           ...                               NaN                     NaN
+4412  MNEG13137  779912           ...                               NaN                     NaN
+4413  MNEG13073  779965           ...                               NaN                     NaN
+4414  MNEG13251  780251           ...                               NaN                     NaN
+4415  MNEG13095  780957           ...                               NaN                     NaN
+4416  MNEG13121  780968           ...                               NaN                     NaN
+4417  MNEG13223  780968           ...                               NaN                     NaN
+4418  MNEG13137  781360           ...                               NaN                     NaN
+4419  MNEG13127  781517           ...                               NaN                     NaN
+4420  FNEG13185  781544           ...                               NaN                     NaN
+4421  MNEG13157  781579           ...                               NaN                     NaN
+4422  MNEG13285  781579           ...                               NaN                     NaN
+4423  MNEG13283  781658           ...                               NaN                     NaN
+4424  FNEG13073  781928           ...                               NaN                     NaN
+4425  MNEG13045  781933           ...                               NaN                     NaN
+4426  MNEG13097  781933           ...                               NaN                     NaN
+4427  FNEG13267  781973           ...                               NaN                     NaN
+4428  MNEG13267  781974           ...                               NaN                     NaN
+4429  MNEG13229  782096           ...                               NaN                     NaN
+4430  MNEG13299  782096           ...                               NaN                     NaN
+4431  MNEG13295  782146           ...                               NaN                     NaN
+4432  FNEG13023  782647           ...                               NaN                     NaN
+
+[4433 rows x 807 columns]
+
+In [51]: df.columns                                                                                  
+Out[51]: 
+Index(['p_id', 'c_id', 'data/Cardiovascular0', 'data/Cardiovascular1',
+       'data/Cardiovascular2', 'data/Cardiovascular3', 'data/Cardiovascular4',
+       'data/Cardiovascular5', 'data/Cardiovascular6', 'data/Cardiovascular7',
+       ...
+       'data/Cardiovascular795', 'data/Cardiovascular796',
+       'data/Cardiovascular797', 'data/Cardiovascular798',
+       'data/Cardiovascular799', 'data/Cardiovascular800',
+       'data/Cardiovascular801', 'data/Cardiovascular802',
+       'data/Cardiovascular803', 'data/Cardiovascular804'],
+      dtype='object', length=807)
+
+In [52]: df = m.read_file('data/Cardiovascular')                                                     
+
+In [53]: df                                                                                          
+Out[53]: 
+           p_id    c_id           ...            data/Cardiovascular803  data/Cardiovascular804
+0     MNEG26099    3877           ...                               NaN                     NaN
+1     FNEG47157   11214           ...                               NaN                     NaN
+2     MNEG39023   11348           ...                               NaN                     NaN
+3     FNEG39057   12051           ...                               NaN                     NaN
+4     FNEG18003   12605           ...                               NaN                     NaN
+5     MNEG39023   13534           ...                               NaN                     NaN
+6     FNEG39113   14206           ...                               NaN                     NaN
+7     MNEG39091   15070           ...                               NaN                     NaN
+8     MNEG39003   15236           ...                               NaN                     NaN
+9     MNEG39017   15460           ...                               NaN                     NaN
+10    MNEG39049   15460           ...                               NaN                     NaN
+11    MPOS39049   17356           ...                               NaN                     NaN
+12    MNEG18003   18434           ...                               NaN                     NaN
+13    MNEG39049   18816           ...                               NaN                     NaN
+14    MNEG39023   19849           ...                               NaN                     NaN
+15    FNEG18003   21592           ...                               NaN                     NaN
+16    MNEG18003   21904           ...                               NaN                     NaN
+17    FNEG18065   23638           ...                               NaN                     NaN
+18    FNEG18059   25487           ...                               NaN                     NaN
+19    MNEG18059   25909           ...                               NaN                     NaN
+20    MNEG18003   25944           ...                               NaN                     NaN
+21    MNEG17031   27099           ...                               NaN                     NaN
+22    MNEG17031   27100           ...                               NaN                     NaN
+23    MNEG17197   27333           ...                               NaN                     NaN
+24    MNEG17031   27491           ...                               NaN                     NaN
+25    MNEG17089   27794           ...                               NaN                     NaN
+26    FNEG17197   28237           ...                               NaN                     NaN
+27    FNEG17031   28483           ...                               NaN                     NaN
+28    MNEG18097   29411           ...                               NaN                     NaN
+29    FNEG17043   31298           ...                               NaN                     NaN
+...         ...     ...           ...                               ...                     ...
+4403  MNEG13051  779079           ...                               NaN                     NaN
+4404  MNEG13255  779450           ...                               NaN                     NaN
+4405  MNEG13245  779582           ...                               NaN                     NaN
+4406  FNEG13107  779597           ...                               NaN                     NaN
+4407  FNEG13009  779670           ...                               NaN                     NaN
+4408  FNEG13247  779670           ...                               NaN                     NaN
+4409  MNEG13149  779740           ...                               NaN                     NaN
+4410  FNEG13077  779755           ...                               NaN                     NaN
+4411  MPOS13137  779820           ...                               NaN                     NaN
+4412  MNEG13137  779912           ...                               NaN                     NaN
+4413  MNEG13073  779965           ...                               NaN                     NaN
+4414  MNEG13251  780251           ...                               NaN                     NaN
+4415  MNEG13095  780957           ...                               NaN                     NaN
+4416  MNEG13121  780968           ...                               NaN                     NaN
+4417  MNEG13223  780968           ...                               NaN                     NaN
+4418  MNEG13137  781360           ...                               NaN                     NaN
+4419  MNEG13127  781517           ...                               NaN                     NaN
+4420  FNEG13185  781544           ...                               NaN                     NaN
+4421  MNEG13157  781579           ...                               NaN                     NaN
+4422  MNEG13285  781579           ...                               NaN                     NaN
+4423  MNEG13283  781658           ...                               NaN                     NaN
+4424  FNEG13073  781928           ...                               NaN                     NaN
+4425  MNEG13045  781933           ...                               NaN                     NaN
+4426  MNEG13097  781933           ...                               NaN                     NaN
+4427  FNEG13267  781973           ...                               NaN                     NaN
+4428  MNEG13267  781974           ...                               NaN                     NaN
+4429  MNEG13229  782096           ...                               NaN                     NaN
+4430  MNEG13299  782096           ...                               NaN                     NaN
+4431  MNEG13295  782146           ...                               NaN                     NaN
+4432  FNEG13023  782647           ...                               NaN                     NaN
+
+[4433 rows x 807 columns]
+
+
+[2]+  Stopped                 ipython3
+Abdallahs-MacBook-Pro:midterm abdallahaboelela$ clear
+
+Abdallahs-MacBook-Pro:midterm abdallahaboelela$ ipython3
+Python 3.7.2 (default, Dec 27 2018, 07:35:06) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.2.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: %load_ext autoreload                                                                         
+
+In [2]: %autoreload 2                                                                                
+
+In [3]: import midterm as m                                                                          
+
+In [4]: df = m.read_file('data/Cardiovascular')                                                      
+
+In [5]: df.columns                                                                                   
+Out[5]: 
+Index(['p_id', 'c_id', 'data/Cardiovascular0', 'data/Cardiovascular1',
+       'data/Cardiovascular2', 'data/Cardiovascular3', 'data/Cardiovascular4',
+       'data/Cardiovascular5', 'data/Cardiovascular6', 'data/Cardiovascular7',
+       ...
+       'data/Cardiovascular795', 'data/Cardiovascular796',
+       'data/Cardiovascular797', 'data/Cardiovascular798',
+       'data/Cardiovascular799', 'data/Cardiovascular800',
+       'data/Cardiovascular801', 'data/Cardiovascular802',
+       'data/Cardiovascular803', 'data/Cardiovascular804'],
+      dtype='object', length=807)
+
+In [6]: m                                                                                            
+Out[6]: <module 'midterm' from '/Users/abdallahaboelela/Documents/GitHub/CCTS40500_/midterm/midterm.py'>
+
+In [7]: clear                                                                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In [8]: ls                                                                                           
+README.md      __pycache__/   code_snippets/ data/          midterm.py
+
+In [9]: clear                                                                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In [10]: df.ix[3:]                                                                                   
+/usr/local/bin/ipython3:1: DeprecationWarning: 
+.ix is deprecated. Please use
+.loc for label based indexing or
+.iloc for positional indexing
+
+See the documentation here:
+http://pandas.pydata.org/pandas-docs/stable/indexing.html#ix-indexer-is-deprecated
+  #!/usr/local/opt/python/bin/python3.7
+Out[10]: 
+           p_id    c_id           ...            data/Cardiovascular803  data/Cardiovascular804
+3     FNEG39057   12051           ...                               NaN                     NaN
+4     FNEG18003   12605           ...                               NaN                     NaN
+5     MNEG39023   13534           ...                               NaN                     NaN
+6     FNEG39113   14206           ...                               NaN                     NaN
+7     MNEG39091   15070           ...                               NaN                     NaN
+8     MNEG39003   15236           ...                               NaN                     NaN
+9     MNEG39017   15460           ...                               NaN                     NaN
+10    MNEG39049   15460           ...                               NaN                     NaN
+11    MPOS39049   17356           ...                               NaN                     NaN
+12    MNEG18003   18434           ...                               NaN                     NaN
+13    MNEG39049   18816           ...                               NaN                     NaN
+14    MNEG39023   19849           ...                               NaN                     NaN
+15    FNEG18003   21592           ...                               NaN                     NaN
+16    MNEG18003   21904           ...                               NaN                     NaN
+17    FNEG18065   23638           ...                               NaN                     NaN
+18    FNEG18059   25487           ...                               NaN                     NaN
+19    MNEG18059   25909           ...                               NaN                     NaN
+20    MNEG18003   25944           ...                               NaN                     NaN
+21    MNEG17031   27099           ...                               NaN                     NaN
+22    MNEG17031   27100           ...                               NaN                     NaN
+23    MNEG17197   27333           ...                               NaN                     NaN
+24    MNEG17031   27491           ...                               NaN                     NaN
+25    MNEG17089   27794           ...                               NaN                     NaN
+26    FNEG17197   28237           ...                               NaN                     NaN
+27    FNEG17031   28483           ...                               NaN                     NaN
+28    MNEG18097   29411           ...                               NaN                     NaN
+29    FNEG17043   31298           ...                               NaN                     NaN
+30    FNEG17089   31298           ...                               NaN                     NaN
+31    MNEG17197   31302           ...                               NaN                     NaN
+32    MNEG17089   31522           ...                               NaN                     NaN
+...         ...     ...           ...                               ...                     ...
+4403  MNEG13051  779079           ...                               NaN                     NaN
+4404  MNEG13255  779450           ...                               NaN                     NaN
+4405  MNEG13245  779582           ...                               NaN                     NaN
+4406  FNEG13107  779597           ...                               NaN                     NaN
+4407  FNEG13009  779670           ...                               NaN                     NaN
+4408  FNEG13247  779670           ...                               NaN                     NaN
+4409  MNEG13149  779740           ...                               NaN                     NaN
+4410  FNEG13077  779755           ...                               NaN                     NaN
+4411  MPOS13137  779820           ...                               NaN                     NaN
+4412  MNEG13137  779912           ...                               NaN                     NaN
+4413  MNEG13073  779965           ...                               NaN                     NaN
+4414  MNEG13251  780251           ...                               NaN                     NaN
+4415  MNEG13095  780957           ...                               NaN                     NaN
+4416  MNEG13121  780968           ...                               NaN                     NaN
+4417  MNEG13223  780968           ...                               NaN                     NaN
+4418  MNEG13137  781360           ...                               NaN                     NaN
+4419  MNEG13127  781517           ...                               NaN                     NaN
+4420  FNEG13185  781544           ...                               NaN                     NaN
+4421  MNEG13157  781579           ...                               NaN                     NaN
+4422  MNEG13285  781579           ...                               NaN                     NaN
+4423  MNEG13283  781658           ...                               NaN                     NaN
+4424  FNEG13073  781928           ...                               NaN                     NaN
+4425  MNEG13045  781933           ...                               NaN                     NaN
+4426  MNEG13097  781933           ...                               NaN                     NaN
+4427  FNEG13267  781973           ...                               NaN                     NaN
+4428  MNEG13267  781974           ...                               NaN                     NaN
+4429  MNEG13229  782096           ...                               NaN                     NaN
+4430  MNEG13299  782096           ...                               NaN                     NaN
+4431  MNEG13295  782146           ...                               NaN                     NaN
+4432  FNEG13023  782647           ...                               NaN                     NaN
+
+[4430 rows x 807 columns]
+
+In [11]: df.ix[:, 3:]                                                                                
+/usr/local/bin/ipython3:1: DeprecationWarning: 
+.ix is deprecated. Please use
+.loc for label based indexing or
+.iloc for positional indexing
+
+See the documentation here:
+http://pandas.pydata.org/pandas-docs/stable/indexing.html#ix-indexer-is-deprecated
+  #!/usr/local/opt/python/bin/python3.7
+Out[11]: 
+      data/Cardiovascular1           ...            data/Cardiovascular804
+0                        0           ...                               NaN
+1                        0           ...                               NaN
+2                        0           ...                               NaN
+3                        0           ...                               NaN
+4                        0           ...                               NaN
+5                        0           ...                               NaN
+6                        0           ...                               NaN
+7                        0           ...                               NaN
+8                        0           ...                               NaN
+9                        0           ...                               NaN
+10                       0           ...                               NaN
+11                       0           ...                               NaN
+12                       0           ...                               NaN
+13                       0           ...                               NaN
+14                       0           ...                               NaN
+15                       0           ...                               NaN
+16                       0           ...                               NaN
+17                       0           ...                               NaN
+18                       0           ...                               NaN
+19                       0           ...                               NaN
+20                       0           ...                               NaN
+21                       0           ...                               NaN
+22                       0           ...                               NaN
+23                       0           ...                               NaN
+24                       0           ...                               NaN
+25                       0           ...                               NaN
+26                       0           ...                               NaN
+27                       0           ...                               NaN
+28                       0           ...                               NaN
+29                       0           ...                               NaN
+...                    ...           ...                               ...
+4403                     0           ...                               NaN
+4404                     0           ...                               NaN
+4405                     0           ...                               NaN
+4406                     0           ...                               NaN
+4407                     0           ...                               NaN
+4408                     0           ...                               NaN
+4409                     0           ...                               NaN
+4410                     0           ...                               NaN
+4411                     0           ...                               NaN
+4412                     0           ...                               NaN
+4413                     0           ...                               NaN
+4414                     0           ...                               NaN
+4415                     0           ...                               NaN
+4416                     0           ...                               NaN
+4417                     0           ...                               NaN
+4418                     0           ...                               NaN
+4419                     0           ...                               NaN
+4420                     0           ...                               NaN
+4421                     0           ...                               NaN
+4422                     0           ...                               NaN
+4423                     0           ...                               NaN
+4424                     0           ...                               NaN
+4425                     0           ...                               NaN
+4426                     0           ...                               NaN
+4427                     0           ...                               NaN
+4428                     0           ...                               NaN
+4429                     0           ...                               NaN
+4430                     0           ...                               NaN
+4431                     0           ...                               NaN
+4432                     0           ...                               NaN
+
+[4433 rows x 804 columns]
+
+In [12]:     df['sex'] = df.p_id.apply(lambda x: x[0]) 
+    ...:     df['diagnosis'] = df.p_id.apply(lambda x: x[1:4]) 
+    ...:     df['state'] = df.p_id.apply(lambda x: x[4:6]) 
+    ...:     df['county'] = df.p_id.apply(lambda x: x[6:9])                                          
+
+In [13]: df                                                                                          
+Out[13]: 
+           p_id    c_id  data/Cardiovascular0   ...    diagnosis  state  county
+0     MNEG26099    3877                     0   ...          NEG     26     099
+1     FNEG47157   11214                     0   ...          NEG     47     157
+2     MNEG39023   11348                     0   ...          NEG     39     023
+3     FNEG39057   12051                     0   ...          NEG     39     057
+4     FNEG18003   12605                     0   ...          NEG     18     003
+5     MNEG39023   13534                     0   ...          NEG     39     023
+6     FNEG39113   14206                     0   ...          NEG     39     113
+7     MNEG39091   15070                     0   ...          NEG     39     091
+8     MNEG39003   15236                     0   ...          NEG     39     003
+9     MNEG39017   15460                     0   ...          NEG     39     017
+10    MNEG39049   15460                     0   ...          NEG     39     049
+11    MPOS39049   17356                     0   ...          POS     39     049
+12    MNEG18003   18434                     0   ...          NEG     18     003
+13    MNEG39049   18816                     0   ...          NEG     39     049
+14    MNEG39023   19849                     0   ...          NEG     39     023
+15    FNEG18003   21592                     0   ...          NEG     18     003
+16    MNEG18003   21904                     0   ...          NEG     18     003
+17    FNEG18065   23638                     0   ...          NEG     18     065
+18    FNEG18059   25487                     0   ...          NEG     18     059
+19    MNEG18059   25909                     0   ...          NEG     18     059
+20    MNEG18003   25944                     0   ...          NEG     18     003
+21    MNEG17031   27099                     0   ...          NEG     17     031
+22    MNEG17031   27100                     0   ...          NEG     17     031
+23    MNEG17197   27333                     0   ...          NEG     17     197
+24    MNEG17031   27491                     0   ...          NEG     17     031
+25    MNEG17089   27794                     0   ...          NEG     17     089
+26    FNEG17197   28237                     0   ...          NEG     17     197
+27    FNEG17031   28483                     0   ...          NEG     17     031
+28    MNEG18097   29411                     0   ...          NEG     18     097
+29    FNEG17043   31298                     0   ...          NEG     17     043
+...         ...     ...                   ...   ...          ...    ...     ...
+4403  MNEG13051  779079                     0   ...          NEG     13     051
+4404  MNEG13255  779450                     0   ...          NEG     13     255
+4405  MNEG13245  779582                     0   ...          NEG     13     245
+4406  FNEG13107  779597                     0   ...          NEG     13     107
+4407  FNEG13009  779670                     0   ...          NEG     13     009
+4408  FNEG13247  779670                     0   ...          NEG     13     247
+4409  MNEG13149  779740                     0   ...          NEG     13     149
+4410  FNEG13077  779755                     0   ...          NEG     13     077
+4411  MPOS13137  779820                     0   ...          POS     13     137
+4412  MNEG13137  779912                     0   ...          NEG     13     137
+4413  MNEG13073  779965                     0   ...          NEG     13     073
+4414  MNEG13251  780251                     0   ...          NEG     13     251
+4415  MNEG13095  780957                     0   ...          NEG     13     095
+4416  MNEG13121  780968                     0   ...          NEG     13     121
+4417  MNEG13223  780968                     0   ...          NEG     13     223
+4418  MNEG13137  781360                     0   ...          NEG     13     137
+4419  MNEG13127  781517                     0   ...          NEG     13     127
+4420  FNEG13185  781544                     0   ...          NEG     13     185
+4421  MNEG13157  781579                     0   ...          NEG     13     157
+4422  MNEG13285  781579                     0   ...          NEG     13     285
+4423  MNEG13283  781658                     0   ...          NEG     13     283
+4424  FNEG13073  781928                     0   ...          NEG     13     073
+4425  MNEG13045  781933                     0   ...          NEG     13     045
+4426  MNEG13097  781933                     0   ...          NEG     13     097
+4427  FNEG13267  781973                     0   ...          NEG     13     267
+4428  MNEG13267  781974                     0   ...          NEG     13     267
+4429  MNEG13229  782096                     0   ...          NEG     13     229
+4430  MNEG13299  782096                     0   ...          NEG     13     299
+4431  MNEG13295  782146                     0   ...          NEG     13     295
+4432  FNEG13023  782647                     0   ...          NEG     13     023
+
+[4433 rows x 811 columns]
+
+In [14]: ls                                                                                          
+README.md      __pycache__/   code_snippets/ data/          midterm.py
+
+In [15]: cd data                                                                                     
+/Users/abdallahaboelela/Documents/GitHub/CCTS40500_/midterm/data
+
+In [16]: ls                                                                                          
+Cardiovascular    Hepatic           Musculoskeletal   PNS               Urinary
+Development       Immune            Negative          Positive          __pycache__/
+Digestive         Infectious        Neoplastic        Procedural        midterm.py
+Endocrine         Integumentary     Ophthalmological  Reproductive
+Hematologic       Metabolic         Otic              Respiratory
+
+In [17]: clear                                                                                       
+[autoreload of midterm failed: Traceback (most recent call last):
+  File "/Users/abdallahaboelela/Library/Python/3.7/lib/python/site-packages/IPython/extensions/autoreload.py", line 244, in check
+    superreload(m, reload, self.old_objects)
+  File "/Users/abdallahaboelela/Library/Python/3.7/lib/python/site-packages/IPython/extensions/autoreload.py", line 376, in superreload
+    module = reload(module)
+  File "/usr/local/Cellar/python/3.7.2/Frameworks/Python.framework/Versions/3.7/lib/python3.7/imp.py", line 314, in reload
+    return importlib.reload(module)
+  File "/usr/local/Cellar/python/3.7.2/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py", line 168, in reload
+    raise ModuleNotFoundError(f"spec not found for the module {name!r}", name=name)
+ModuleNotFoundError: spec not found for the module 'midterm'
+]
+
+
+In [18]: ls                                                                                          
+Cardiovascular    Hepatic           Musculoskeletal   PNS               Urinary
+Development       Immune            Negative          Positive          __pycache__/
+Digestive         Infectious        Neoplastic        Procedural
+Endocrine         Integumentary     Ophthalmological  Reproductive
+Hematologic       Metabolic         Otic              Respiratory
+
+In [19]: ls                                                                                          
+Cardiovascular    Hepatic           Musculoskeletal   PNS               Urinary
+Development       Immune            Negative          Positive          __pycache__/
+Digestive         Infectious        Neoplastic        Procedural
+Endocrine         Integumentary     Ophthalmological  Reproductive
+Hematologic       Metabolic         Otic              Respiratory
+
+In [20]: cd ..                                                                                       
+/Users/abdallahaboelela/Documents/GitHub/CCTS40500_/midterm
+
+In [21]: df = m.read_file('data/Cardiovascular')                                                     
+
+In [22]: df.columns                                                                                  
+Out[22]: 
+Index(['p_id', 'c_id', 'data/Cardiovascular0', 'data/Cardiovascular1',
+       'data/Cardiovascular2', 'data/Cardiovascular3', 'data/Cardiovascular4',
+       'data/Cardiovascular5', 'data/Cardiovascular6', 'data/Cardiovascular7',
+       ...
+       'data/Cardiovascular795', 'data/Cardiovascular796',
+       'data/Cardiovascular797', 'data/Cardiovascular798',
+       'data/Cardiovascular799', 'data/Cardiovascular800',
+       'data/Cardiovascular801', 'data/Cardiovascular802',
+       'data/Cardiovascular803', 'data/Cardiovascular804'],
+      dtype='object', length=807)
+
+In [23]: df = m.read_file('data/Cardiovascular')                                                     
+
+In [24]: df                                                                                          
+Out[24]: 
+           p_id    c_id  Cardiovascular0  Cardiovascular1   ...    sex  diagnosis  state  county
+0     MNEG26099    3877                0                0   ...      M        NEG     26     099
+1     FNEG47157   11214                0                0   ...      F        NEG     47     157
+2     MNEG39023   11348                0                0   ...      M        NEG     39     023
+3     FNEG39057   12051                0                0   ...      F        NEG     39     057
+4     FNEG18003   12605                0                0   ...      F        NEG     18     003
+5     MNEG39023   13534                0                0   ...      M        NEG     39     023
+6     FNEG39113   14206                0                0   ...      F        NEG     39     113
+7     MNEG39091   15070                0                0   ...      M        NEG     39     091
+8     MNEG39003   15236                0                0   ...      M        NEG     39     003
+9     MNEG39017   15460                0                0   ...      M        NEG     39     017
+10    MNEG39049   15460                0                0   ...      M        NEG     39     049
+11    MPOS39049   17356                0                0   ...      M        POS     39     049
+12    MNEG18003   18434                0                0   ...      M        NEG     18     003
+13    MNEG39049   18816                0                0   ...      M        NEG     39     049
+14    MNEG39023   19849                0                0   ...      M        NEG     39     023
+15    FNEG18003   21592                0                0   ...      F        NEG     18     003
+16    MNEG18003   21904                0                0   ...      M        NEG     18     003
+17    FNEG18065   23638                0                0   ...      F        NEG     18     065
+18    FNEG18059   25487                0                0   ...      F        NEG     18     059
+19    MNEG18059   25909                0                0   ...      M        NEG     18     059
+20    MNEG18003   25944                0                0   ...      M        NEG     18     003
+21    MNEG17031   27099                0                0   ...      M        NEG     17     031
+22    MNEG17031   27100                0                0   ...      M        NEG     17     031
+23    MNEG17197   27333                0                0   ...      M        NEG     17     197
+24    MNEG17031   27491                0                0   ...      M        NEG     17     031
+25    MNEG17089   27794                0                0   ...      M        NEG     17     089
+26    FNEG17197   28237                0                0   ...      F        NEG     17     197
+27    FNEG17031   28483                0                0   ...      F        NEG     17     031
+28    MNEG18097   29411                0                0   ...      M        NEG     18     097
+29    FNEG17043   31298                0                0   ...      F        NEG     17     043
+...         ...     ...              ...              ...   ...    ...        ...    ...     ...
+4403  MNEG13051  779079                0                0   ...      M        NEG     13     051
+4404  MNEG13255  779450                0                0   ...      M        NEG     13     255
+4405  MNEG13245  779582                0                0   ...      M        NEG     13     245
+4406  FNEG13107  779597                0                0   ...      F        NEG     13     107
+4407  FNEG13009  779670                0                0   ...      F        NEG     13     009
+4408  FNEG13247  779670                0                0   ...      F        NEG     13     247
+4409  MNEG13149  779740                0                0   ...      M        NEG     13     149
+4410  FNEG13077  779755                0                0   ...      F        NEG     13     077
+4411  MPOS13137  779820                0                0   ...      M        POS     13     137
+4412  MNEG13137  779912                0                0   ...      M        NEG     13     137
+4413  MNEG13073  779965                0                0   ...      M        NEG     13     073
+4414  MNEG13251  780251                0                0   ...      M        NEG     13     251
+4415  MNEG13095  780957                0                0   ...      M        NEG     13     095
+4416  MNEG13121  780968                0                0   ...      M        NEG     13     121
+4417  MNEG13223  780968                0                0   ...      M        NEG     13     223
+4418  MNEG13137  781360                0                0   ...      M        NEG     13     137
+4419  MNEG13127  781517                0                0   ...      M        NEG     13     127
+4420  FNEG13185  781544                0                0   ...      F        NEG     13     185
+4421  MNEG13157  781579                0                0   ...      M        NEG     13     157
+4422  MNEG13285  781579                0                0   ...      M        NEG     13     285
+4423  MNEG13283  781658                0                0   ...      M        NEG     13     283
+4424  FNEG13073  781928                0                0   ...      F        NEG     13     073
+4425  MNEG13045  781933                0                0   ...      M        NEG     13     045
+4426  MNEG13097  781933                0                0   ...      M        NEG     13     097
+4427  FNEG13267  781973                0                0   ...      F        NEG     13     267
+4428  MNEG13267  781974                0                0   ...      M        NEG     13     267
+4429  MNEG13229  782096                0                0   ...      M        NEG     13     229
+4430  MNEG13299  782096                0                0   ...      M        NEG     13     299
+4431  MNEG13295  782146                0                0   ...      M        NEG     13     295
+4432  FNEG13023  782647                0                0   ...      F        NEG     13     023
+
+[4433 rows x 811 columns]
+
+In [25]: df.columns[3:]                                                                              
+Out[25]: 
+Index(['Cardiovascular1', 'Cardiovascular2', 'Cardiovascular3',
+       'Cardiovascular4', 'Cardiovascular5', 'Cardiovascular6',
+       'Cardiovascular7', 'Cardiovascular8', 'Cardiovascular9',
+       'Cardiovascular10',
+       ...
+       'Cardiovascular799', 'Cardiovascular800', 'Cardiovascular801',
+       'Cardiovascular802', 'Cardiovascular803', 'Cardiovascular804', 'sex',
+       'diagnosis', 'state', 'county'],
+      dtype='object', length=808)
+
+In [26]: df = m.read_file('data/Cardiovascular')                                                     
+
+In [27]: df                                                                                          
+Out[27]: 
+           p_id    c_id  Cardiovascular0  Cardiovascular1   ...    sex  diagnosis  state  county
+0     MNEG26099    3877                0                0   ...      1          0     22      53
+1     FNEG47157   11214                0                0   ...      0          0     42      82
+2     MNEG39023   11348                0                0   ...      1          0     35      14
+3     FNEG39057   12051                0                0   ...      0          0     35      31
+4     FNEG18003   12605                0                0   ...      0          0     14       2
+5     MNEG39023   13534                0                0   ...      1          0     35      14
+6     FNEG39113   14206                0                0   ...      0          0     35      60
+7     MNEG39091   15070                0                0   ...      1          0     35      49
+8     MNEG39003   15236                0                0   ...      1          0     35       2
+9     MNEG39017   15460                0                0   ...      1          0     35      10
+10    MNEG39049   15460                0                0   ...      1          0     35      27
+11    MPOS39049   17356                0                0   ...      1          1     35      27
+12    MNEG18003   18434                0                0   ...      1          0     14       2
+13    MNEG39049   18816                0                0   ...      1          0     35      27
+14    MNEG39023   19849                0                0   ...      1          0     35      14
+15    FNEG18003   21592                0                0   ...      0          0     14       2
+16    MNEG18003   21904                0                0   ...      1          0     14       2
+17    FNEG18065   23638                0                0   ...      0          0     14      35
+18    FNEG18059   25487                0                0   ...      0          0     14      32
+19    MNEG18059   25909                0                0   ...      1          0     14      32
+20    MNEG18003   25944                0                0   ...      1          0     14       2
+21    MNEG17031   27099                0                0   ...      1          0     13      18
+22    MNEG17031   27100                0                0   ...      1          0     13      18
+23    MNEG17197   27333                0                0   ...      1          0     13     103
+24    MNEG17031   27491                0                0   ...      1          0     13      18
+25    MNEG17089   27794                0                0   ...      1          0     13      48
+26    FNEG17197   28237                0                0   ...      0          0     13     103
+27    FNEG17031   28483                0                0   ...      0          0     13      18
+28    MNEG18097   29411                0                0   ...      1          0     14      52
+29    FNEG17043   31298                0                0   ...      0          0     13      24
+...         ...     ...              ...              ...   ...    ...        ...    ...     ...
+4403  MNEG13051  779079                0                0   ...      1          0     11      28
+4404  MNEG13255  779450                0                0   ...      1          0     11     126
+4405  MNEG13245  779582                0                0   ...      1          0     11     122
+4406  FNEG13107  779597                0                0   ...      0          0     11      57
+4407  FNEG13009  779670                0                0   ...      0          0     11       5
+4408  FNEG13247  779670                0                0   ...      0          0     11     123
+4409  MNEG13149  779740                0                0   ...      1          0     11      78
+4410  FNEG13077  779755                0                0   ...      0          0     11      41
+4411  MPOS13137  779820                0                0   ...      1          1     11      72
+4412  MNEG13137  779912                0                0   ...      1          0     11      72
+4413  MNEG13073  779965                0                0   ...      1          0     11      39
+4414  MNEG13251  780251                0                0   ...      1          0     11     124
+4415  MNEG13095  780957                0                0   ...      1          0     11      51
+4416  MNEG13121  780968                0                0   ...      1          0     11      64
+4417  MNEG13223  780968                0                0   ...      1          0     11     113
+4418  MNEG13137  781360                0                0   ...      1          0     11      72
+4419  MNEG13127  781517                0                0   ...      1          0     11      67
+4420  FNEG13185  781544                0                0   ...      0          0     11      97
+4421  MNEG13157  781579                0                0   ...      1          0     11      82
+4422  MNEG13285  781579                0                0   ...      1          0     11     137
+4423  MNEG13283  781658                0                0   ...      1          0     11     136
+4424  FNEG13073  781928                0                0   ...      0          0     11      39
+4425  MNEG13045  781933                0                0   ...      1          0     11      25
+4426  MNEG13097  781933                0                0   ...      1          0     11      52
+4427  FNEG13267  781973                0                0   ...      0          0     11     129
+4428  MNEG13267  781974                0                0   ...      1          0     11     129
+4429  MNEG13229  782096                0                0   ...      1          0     11     116
+4430  MNEG13299  782096                0                0   ...      1          0     11     142
+4431  MNEG13295  782146                0                0   ...      1          0     11     140
+4432  FNEG13023  782647                0                0   ...      0          0     11      14
+
+[4433 rows x 811 columns]
+
+In [28]: df.columns                                                                                  
+Out[28]: 
+Index(['p_id', 'c_id', 'Cardiovascular0', 'Cardiovascular1', 'Cardiovascular2',
+       'Cardiovascular3', 'Cardiovascular4', 'Cardiovascular5',
+       'Cardiovascular6', 'Cardiovascular7',
+       ...
+       'Cardiovascular799', 'Cardiovascular800', 'Cardiovascular801',
+       'Cardiovascular802', 'Cardiovascular803', 'Cardiovascular804', 'sex',
+       'diagnosis', 'state', 'county'],
+      dtype='object', length=811)
+
+In [29]: df.Cardiovascular0                                                                          
+Out[29]: 
+0       0
+1       0
+2       0
+3       0
+4       0
+5       0
+6       0
+7       0
+8       0
+9       0
+10      0
+11      0
+12      0
+13      0
+14      0
+15      0
+16      0
+17      0
+18      0
+19      0
+20      0
+21      0
+22      0
+23      0
+24      0
+25      0
+26      0
+27      0
+28      0
+29      0
+       ..
+4403    0
+4404    0
+4405    0
+4406    0
+4407    0
+4408    0
+4409    0
+4410    0
+4411    0
+4412    0
+4413    0
+4414    0
+4415    0
+4416    0
+4417    0
+4418    0
+4419    0
+4420    0
+4421    0
+4422    0
+4423    0
+4424    0
+4425    0
+4426    0
+4427    0
+4428    0
+4429    0
+4430    0
+4431    0
+4432    0
+Name: Cardiovascular0, Length: 4433, dtype: int64
+
+In [30]: df.Cardiovascular804                                                                        
+Out[30]: 
+0      -1
+1      -1
+2      -1
+3      -1
+4      -1
+5      -1
+6      -1
+7      -1
+8      -1
+9      -1
+10     -1
+11     -1
+12     -1
+13     -1
+14     -1
+15     -1
+16     -1
+17     -1
+18     -1
+19     -1
+20     -1
+21     -1
+22     -1
+23     -1
+24     -1
+25     -1
+26     -1
+27     -1
+28     -1
+29     -1
+       ..
+4403   -1
+4404   -1
+4405   -1
+4406   -1
+4407   -1
+4408   -1
+4409   -1
+4410   -1
+4411   -1
+4412   -1
+4413   -1
+4414   -1
+4415   -1
+4416   -1
+4417   -1
+4418   -1
+4419   -1
+4420   -1
+4421   -1
+4422   -1
+4423   -1
+4424   -1
+4425   -1
+4426   -1
+4427   -1
+4428   -1
+4429   -1
+4430   -1
+4431   -1
+4432   -1
+Name: Cardiovascular804, Length: 4433, dtype: int8
+
+In [31]: df.Cardiovascular804 != -1                                                                  
+Out[31]: 
+0       False
+1       False
+2       False
+3       False
+4       False
+5       False
+6       False
+7       False
+8       False
+9       False
+10      False
+11      False
+12      False
+13      False
+14      False
+15      False
+16      False
+17      False
+18      False
+19      False
+20      False
+21      False
+22      False
+23      False
+24      False
+25      False
+26      False
+27      False
+28      False
+29      False
+        ...  
+4403    False
+4404    False
+4405    False
+4406    False
+4407    False
+4408    False
+4409    False
+4410    False
+4411    False
+4412    False
+4413    False
+4414    False
+4415    False
+4416    False
+4417    False
+4418    False
+4419    False
+4420    False
+4421    False
+4422    False
+4423    False
+4424    False
+4425    False
+4426    False
+4427    False
+4428    False
+4429    False
+4430    False
+4431    False
+4432    False
+Name: Cardiovascular804, Length: 4433, dtype: bool
+
+In [32]: df[df.Cardiovascular804 != -1]                                                              
+Out[32]: 
+          p_id    c_id  Cardiovascular0  Cardiovascular1   ...    sex  diagnosis  state  county
+747  FNEG39093  245147                0                0   ...      0          0     35      50
+
+[1 rows x 811 columns]
+
+In [33]: df.Cardiovascular804                                                                        
+Out[33]: 
+0      -1
+1      -1
+2      -1
+3      -1
+4      -1
+5      -1
+6      -1
+7      -1
+8      -1
+9      -1
+10     -1
+11     -1
+12     -1
+13     -1
+14     -1
+15     -1
+16     -1
+17     -1
+18     -1
+19     -1
+20     -1
+21     -1
+22     -1
+23     -1
+24     -1
+25     -1
+26     -1
+27     -1
+28     -1
+29     -1
+       ..
+4403   -1
+4404   -1
+4405   -1
+4406   -1
+4407   -1
+4408   -1
+4409   -1
+4410   -1
+4411   -1
+4412   -1
+4413   -1
+4414   -1
+4415   -1
+4416   -1
+4417   -1
+4418   -1
+4419   -1
+4420   -1
+4421   -1
+4422   -1
+4423   -1
+4424   -1
+4425   -1
+4426   -1
+4427   -1
+4428   -1
+4429   -1
+4430   -1
+4431   -1
+4432   -1
+Name: Cardiovascular804, Length: 4433, dtype: int8
+
+In [34]: df[df.Cardiovascular804 != -1]                                                              
+Out[34]: 
+          p_id    c_id  Cardiovascular0  Cardiovascular1   ...    sex  diagnosis  state  county
+747  FNEG39093  245147                0                0   ...      0          0     35      50
+
+[1 rows x 811 columns]
+
+In [35]: df.Cardiovascular804[df.Cardiovascular804 != -1]                                            
+Out[35]: 
+747    0
+Name: Cardiovascular804, dtype: int8
+
+In [36]: df = m.read_file('data/Cardiovascular')                                                     
+
+In [37]: df = m.read_file('data/Cardiovascular')                                                     
+
+In [38]: df.Cardiovascular804                                                                        
+Out[38]: 
+0      NaN
+1      NaN
+2      NaN
+3      NaN
+4      NaN
+5      NaN
+6      NaN
+7      NaN
+8      NaN
+9      NaN
+10     NaN
+11     NaN
+12     NaN
+13     NaN
+14     NaN
+15     NaN
+16     NaN
+17     NaN
+18     NaN
+19     NaN
+20     NaN
+21     NaN
+22     NaN
+23     NaN
+24     NaN
+25     NaN
+26     NaN
+27     NaN
+28     NaN
+29     NaN
+        ..
+4403   NaN
+4404   NaN
+4405   NaN
+4406   NaN
+4407   NaN
+4408   NaN
+4409   NaN
+4410   NaN
+4411   NaN
+4412   NaN
+4413   NaN
+4414   NaN
+4415   NaN
+4416   NaN
+4417   NaN
+4418   NaN
+4419   NaN
+4420   NaN
+4421   NaN
+4422   NaN
+4423   NaN
+4424   NaN
+4425   NaN
+4426   NaN
+4427   NaN
+4428   NaN
+4429   NaN
+4430   NaN
+4431   NaN
+4432   NaN
+Name: Cardiovascular804, Length: 4433, dtype: category
+Categories (1, float64): [2.0]
+
+In [39]: df.Cardiovascular0                                                                          
+Out[39]: 
+0       0
+1       0
+2       0
+3       0
+4       0
+5       0
+6       0
+7       0
+8       0
+9       0
+10      0
+11      0
+12      0
+13      0
+14      0
+15      0
+16      0
+17      0
+18      0
+19      0
+20      0
+21      0
+22      0
+23      0
+24      0
+25      0
+26      0
+27      0
+28      0
+29      0
+       ..
+4403    0
+4404    0
+4405    0
+4406    0
+4407    0
+4408    0
+4409    0
+4410    0
+4411    0
+4412    0
+4413    0
+4414    0
+4415    0
+4416    0
+4417    0
+4418    0
+4419    0
+4420    0
+4421    0
+4422    0
+4423    0
+4424    0
+4425    0
+4426    0
+4427    0
+4428    0
+4429    0
+4430    0
+4431    0
+4432    0
+Name: Cardiovascular0, Length: 4433, dtype: int64
+
+In [40]: df.Cardiovascular1                                                                          
+Out[40]: 
+0       0
+1       0
+2       0
+3       0
+4       0
+5       0
+6       0
+7       0
+8       0
+9       0
+10      0
+11      0
+12      0
+13      0
+14      0
+15      0
+16      0
+17      0
+18      0
+19      0
+20      0
+21      0
+22      0
+23      0
+24      0
+25      0
+26      0
+27      0
+28      0
+29      0
+       ..
+4403    0
+4404    0
+4405    0
+4406    0
+4407    0
+4408    0
+4409    0
+4410    0
+4411    0
+4412    0
+4413    0
+4414    0
+4415    0
+4416    0
+4417    0
+4418    0
+4419    0
+4420    0
+4421    0
+4422    0
+4423    0
+4424    0
+4425    0
+4426    0
+4427    0
+4428    0
+4429    0
+4430    0
+4431    0
+4432    0
+Name: Cardiovascular1, Length: 4433, dtype: category
+Categories (1, int64): [0]
+
+In [41]: df                                                                                          
+Out[41]: 
+           p_id    c_id  Cardiovascular0 Cardiovascular1  ...   sex diagnosis state county
+0     MNEG26099    3877                0               0  ...     M       NEG    26    099
+1     FNEG47157   11214                0               0  ...     F       NEG    47    157
+2     MNEG39023   11348                0               0  ...     M       NEG    39    023
+3     FNEG39057   12051                0               0  ...     F       NEG    39    057
+4     FNEG18003   12605                0               0  ...     F       NEG    18    003
+5     MNEG39023   13534                0               0  ...     M       NEG    39    023
+6     FNEG39113   14206                0               0  ...     F       NEG    39    113
+7     MNEG39091   15070                0               0  ...     M       NEG    39    091
+8     MNEG39003   15236                0               0  ...     M       NEG    39    003
+9     MNEG39017   15460                0               0  ...     M       NEG    39    017
+10    MNEG39049   15460                0               0  ...     M       NEG    39    049
+11    MPOS39049   17356                0               0  ...     M       POS    39    049
+12    MNEG18003   18434                0               0  ...     M       NEG    18    003
+13    MNEG39049   18816                0               0  ...     M       NEG    39    049
+14    MNEG39023   19849                0               0  ...     M       NEG    39    023
+15    FNEG18003   21592                0               0  ...     F       NEG    18    003
+16    MNEG18003   21904                0               0  ...     M       NEG    18    003
+17    FNEG18065   23638                0               0  ...     F       NEG    18    065
+18    FNEG18059   25487                0               0  ...     F       NEG    18    059
+19    MNEG18059   25909                0               0  ...     M       NEG    18    059
+20    MNEG18003   25944                0               0  ...     M       NEG    18    003
+21    MNEG17031   27099                0               0  ...     M       NEG    17    031
+22    MNEG17031   27100                0               0  ...     M       NEG    17    031
+23    MNEG17197   27333                0               0  ...     M       NEG    17    197
+24    MNEG17031   27491                0               0  ...     M       NEG    17    031
+25    MNEG17089   27794                0               0  ...     M       NEG    17    089
+26    FNEG17197   28237                0               0  ...     F       NEG    17    197
+27    FNEG17031   28483                0               0  ...     F       NEG    17    031
+28    MNEG18097   29411                0               0  ...     M       NEG    18    097
+29    FNEG17043   31298                0               0  ...     F       NEG    17    043
+...         ...     ...              ...             ...  ...    ..       ...   ...    ...
+4403  MNEG13051  779079                0               0  ...     M       NEG    13    051
+4404  MNEG13255  779450                0               0  ...     M       NEG    13    255
+4405  MNEG13245  779582                0               0  ...     M       NEG    13    245
+4406  FNEG13107  779597                0               0  ...     F       NEG    13    107
+4407  FNEG13009  779670                0               0  ...     F       NEG    13    009
+4408  FNEG13247  779670                0               0  ...     F       NEG    13    247
+4409  MNEG13149  779740                0               0  ...     M       NEG    13    149
+4410  FNEG13077  779755                0               0  ...     F       NEG    13    077
+4411  MPOS13137  779820                0               0  ...     M       POS    13    137
+4412  MNEG13137  779912                0               0  ...     M       NEG    13    137
+4413  MNEG13073  779965                0               0  ...     M       NEG    13    073
+4414  MNEG13251  780251                0               0  ...     M       NEG    13    251
+4415  MNEG13095  780957                0               0  ...     M       NEG    13    095
+4416  MNEG13121  780968                0               0  ...     M       NEG    13    121
+4417  MNEG13223  780968                0               0  ...     M       NEG    13    223
+4418  MNEG13137  781360                0               0  ...     M       NEG    13    137
+4419  MNEG13127  781517                0               0  ...     M       NEG    13    127
+4420  FNEG13185  781544                0               0  ...     F       NEG    13    185
+4421  MNEG13157  781579                0               0  ...     M       NEG    13    157
+4422  MNEG13285  781579                0               0  ...     M       NEG    13    285
+4423  MNEG13283  781658                0               0  ...     M       NEG    13    283
+4424  FNEG13073  781928                0               0  ...     F       NEG    13    073
+4425  MNEG13045  781933                0               0  ...     M       NEG    13    045
+4426  MNEG13097  781933                0               0  ...     M       NEG    13    097
+4427  FNEG13267  781973                0               0  ...     F       NEG    13    267
+4428  MNEG13267  781974                0               0  ...     M       NEG    13    267
+4429  MNEG13229  782096                0               0  ...     M       NEG    13    229
+4430  MNEG13299  782096                0               0  ...     M       NEG    13    299
+4431  MNEG13295  782146                0               0  ...     M       NEG    13    295
+4432  FNEG13023  782647                0               0  ...     F       NEG    13    023
+
+[4433 rows x 811 columns]
+
+In [42]: df.columns[3: 
+    ...: ]                                                                                           
+Out[42]: 
+Index(['Cardiovascular1', 'Cardiovascular2', 'Cardiovascular3',
+       'Cardiovascular4', 'Cardiovascular5', 'Cardiovascular6',
+       'Cardiovascular7', 'Cardiovascular8', 'Cardiovascular9',
+       'Cardiovascular10',
+       ...
+       'Cardiovascular799', 'Cardiovascular800', 'Cardiovascular801',
+       'Cardiovascular802', 'Cardiovascular803', 'Cardiovascular804', 'sex',
+       'diagnosis', 'state', 'county'],
+      dtype='object', length=808)
+
+In [43]: df = m.read_file('data/Cardiovascular')                                                     
+
+In [44]: df                                                                                          
+Out[44]: 
+           p_id    c_id Cardiovascular0 Cardiovascular1  ...   sex diagnosis state county
+0     MNEG26099    3877               0               0  ...     M       NEG    26    099
+1     FNEG47157   11214               0               0  ...     F       NEG    47    157
+2     MNEG39023   11348               0               0  ...     M       NEG    39    023
+3     FNEG39057   12051               0               0  ...     F       NEG    39    057
+4     FNEG18003   12605               0               0  ...     F       NEG    18    003
+5     MNEG39023   13534               0               0  ...     M       NEG    39    023
+6     FNEG39113   14206               0               0  ...     F       NEG    39    113
+7     MNEG39091   15070               0               0  ...     M       NEG    39    091
+8     MNEG39003   15236               0               0  ...     M       NEG    39    003
+9     MNEG39017   15460               0               0  ...     M       NEG    39    017
+10    MNEG39049   15460               0               0  ...     M       NEG    39    049
+11    MPOS39049   17356               0               0  ...     M       POS    39    049
+12    MNEG18003   18434               0               0  ...     M       NEG    18    003
+13    MNEG39049   18816               0               0  ...     M       NEG    39    049
+14    MNEG39023   19849               0               0  ...     M       NEG    39    023
+15    FNEG18003   21592               0               0  ...     F       NEG    18    003
+16    MNEG18003   21904               0               0  ...     M       NEG    18    003
+17    FNEG18065   23638               0               0  ...     F       NEG    18    065
+18    FNEG18059   25487               0               0  ...     F       NEG    18    059
+19    MNEG18059   25909               0               0  ...     M       NEG    18    059
+20    MNEG18003   25944               0               0  ...     M       NEG    18    003
+21    MNEG17031   27099               0               0  ...     M       NEG    17    031
+22    MNEG17031   27100               0               0  ...     M       NEG    17    031
+23    MNEG17197   27333               0               0  ...     M       NEG    17    197
+24    MNEG17031   27491               0               0  ...     M       NEG    17    031
+25    MNEG17089   27794               0               0  ...     M       NEG    17    089
+26    FNEG17197   28237               0               0  ...     F       NEG    17    197
+27    FNEG17031   28483               0               0  ...     F       NEG    17    031
+28    MNEG18097   29411               0               0  ...     M       NEG    18    097
+29    FNEG17043   31298               0               0  ...     F       NEG    17    043
+...         ...     ...             ...             ...  ...    ..       ...   ...    ...
+4403  MNEG13051  779079               0               0  ...     M       NEG    13    051
+4404  MNEG13255  779450               0               0  ...     M       NEG    13    255
+4405  MNEG13245  779582               0               0  ...     M       NEG    13    245
+4406  FNEG13107  779597               0               0  ...     F       NEG    13    107
+4407  FNEG13009  779670               0               0  ...     F       NEG    13    009
+4408  FNEG13247  779670               0               0  ...     F       NEG    13    247
+4409  MNEG13149  779740               0               0  ...     M       NEG    13    149
+4410  FNEG13077  779755               0               0  ...     F       NEG    13    077
+4411  MPOS13137  779820               0               0  ...     M       POS    13    137
+4412  MNEG13137  779912               0               0  ...     M       NEG    13    137
+4413  MNEG13073  779965               0               0  ...     M       NEG    13    073
+4414  MNEG13251  780251               0               0  ...     M       NEG    13    251
+4415  MNEG13095  780957               0               0  ...     M       NEG    13    095
+4416  MNEG13121  780968               0               0  ...     M       NEG    13    121
+4417  MNEG13223  780968               0               0  ...     M       NEG    13    223
+4418  MNEG13137  781360               0               0  ...     M       NEG    13    137
+4419  MNEG13127  781517               0               0  ...     M       NEG    13    127
+4420  FNEG13185  781544               0               0  ...     F       NEG    13    185
+4421  MNEG13157  781579               0               0  ...     M       NEG    13    157
+4422  MNEG13285  781579               0               0  ...     M       NEG    13    285
+4423  MNEG13283  781658               0               0  ...     M       NEG    13    283
+4424  FNEG13073  781928               0               0  ...     F       NEG    13    073
+4425  MNEG13045  781933               0               0  ...     M       NEG    13    045
+4426  MNEG13097  781933               0               0  ...     M       NEG    13    097
+4427  FNEG13267  781973               0               0  ...     F       NEG    13    267
+4428  MNEG13267  781974               0               0  ...     M       NEG    13    267
+4429  MNEG13229  782096               0               0  ...     M       NEG    13    229
+4430  MNEG13299  782096               0               0  ...     M       NEG    13    299
+4431  MNEG13295  782146               0               0  ...     M       NEG    13    295
+4432  FNEG13023  782647               0               0  ...     F       NEG    13    023
+
+[4433 rows x 811 columns]
+
+In [45]: clear                                                                                       
+
+
+In [46]: df                                                                                          
+Out[46]: 
+           p_id    c_id Cardiovascular0 Cardiovascular1  ...   sex diagnosis state county
+0     MNEG26099    3877               0               0  ...     M       NEG    26    099
+1     FNEG47157   11214               0               0  ...     F       NEG    47    157
+2     MNEG39023   11348               0               0  ...     M       NEG    39    023
+3     FNEG39057   12051               0               0  ...     F       NEG    39    057
+4     FNEG18003   12605               0               0  ...     F       NEG    18    003
+5     MNEG39023   13534               0               0  ...     M       NEG    39    023
+6     FNEG39113   14206               0               0  ...     F       NEG    39    113
+7     MNEG39091   15070               0               0  ...     M       NEG    39    091
+8     MNEG39003   15236               0               0  ...     M       NEG    39    003
+9     MNEG39017   15460               0               0  ...     M       NEG    39    017
+10    MNEG39049   15460               0               0  ...     M       NEG    39    049
+11    MPOS39049   17356               0               0  ...     M       POS    39    049
+12    MNEG18003   18434               0               0  ...     M       NEG    18    003
+13    MNEG39049   18816               0               0  ...     M       NEG    39    049
+14    MNEG39023   19849               0               0  ...     M       NEG    39    023
+15    FNEG18003   21592               0               0  ...     F       NEG    18    003
+16    MNEG18003   21904               0               0  ...     M       NEG    18    003
+17    FNEG18065   23638               0               0  ...     F       NEG    18    065
+18    FNEG18059   25487               0               0  ...     F       NEG    18    059
+19    MNEG18059   25909               0               0  ...     M       NEG    18    059
+20    MNEG18003   25944               0               0  ...     M       NEG    18    003
+21    MNEG17031   27099               0               0  ...     M       NEG    17    031
+22    MNEG17031   27100               0               0  ...     M       NEG    17    031
+23    MNEG17197   27333               0               0  ...     M       NEG    17    197
+24    MNEG17031   27491               0               0  ...     M       NEG    17    031
+25    MNEG17089   27794               0               0  ...     M       NEG    17    089
+26    FNEG17197   28237               0               0  ...     F       NEG    17    197
+27    FNEG17031   28483               0               0  ...     F       NEG    17    031
+28    MNEG18097   29411               0               0  ...     M       NEG    18    097
+29    FNEG17043   31298               0               0  ...     F       NEG    17    043
+...         ...     ...             ...             ...  ...    ..       ...   ...    ...
+4403  MNEG13051  779079               0               0  ...     M       NEG    13    051
+4404  MNEG13255  779450               0               0  ...     M       NEG    13    255
+4405  MNEG13245  779582               0               0  ...     M       NEG    13    245
+4406  FNEG13107  779597               0               0  ...     F       NEG    13    107
+4407  FNEG13009  779670               0               0  ...     F       NEG    13    009
+4408  FNEG13247  779670               0               0  ...     F       NEG    13    247
+4409  MNEG13149  779740               0               0  ...     M       NEG    13    149
+4410  FNEG13077  779755               0               0  ...     F       NEG    13    077
+4411  MPOS13137  779820               0               0  ...     M       POS    13    137
+4412  MNEG13137  779912               0               0  ...     M       NEG    13    137
+4413  MNEG13073  779965               0               0  ...     M       NEG    13    073
+4414  MNEG13251  780251               0               0  ...     M       NEG    13    251
+4415  MNEG13095  780957               0               0  ...     M       NEG    13    095
+4416  MNEG13121  780968               0               0  ...     M       NEG    13    121
+4417  MNEG13223  780968               0               0  ...     M       NEG    13    223
+4418  MNEG13137  781360               0               0  ...     M       NEG    13    137
+4419  MNEG13127  781517               0               0  ...     M       NEG    13    127
+4420  FNEG13185  781544               0               0  ...     F       NEG    13    185
+4421  MNEG13157  781579               0               0  ...     M       NEG    13    157
+4422  MNEG13285  781579               0               0  ...     M       NEG    13    285
+4423  MNEG13283  781658               0               0  ...     M       NEG    13    283
+4424  FNEG13073  781928               0               0  ...     F       NEG    13    073
+4425  MNEG13045  781933               0               0  ...     M       NEG    13    045
+4426  MNEG13097  781933               0               0  ...     M       NEG    13    097
+4427  FNEG13267  781973               0               0  ...     F       NEG    13    267
+4428  MNEG13267  781974               0               0  ...     M       NEG    13    267
+4429  MNEG13229  782096               0               0  ...     M       NEG    13    229
+4430  MNEG13299  782096               0               0  ...     M       NEG    13    299
+4431  MNEG13295  782146               0               0  ...     M       NEG    13    295
+4432  FNEG13023  782647               0               0  ...     F       NEG    13    023
+
+[4433 rows x 811 columns]
+
+In [47]: df.Cardiovascular0                                                                          
+Out[47]: 
+0       0
+1       0
+2       0
+3       0
+4       0
+5       0
+6       0
+7       0
+8       0
+9       0
+10      0
+11      0
+12      0
+13      0
+14      0
+15      0
+16      0
+17      0
+18      0
+19      0
+20      0
+21      0
+22      0
+23      0
+24      0
+25      0
+26      0
+27      0
+28      0
+29      0
+       ..
+4403    0
+4404    0
+4405    0
+4406    0
+4407    0
+4408    0
+4409    0
+4410    0
+4411    0
+4412    0
+4413    0
+4414    0
+4415    0
+4416    0
+4417    0
+4418    0
+4419    0
+4420    0
+4421    0
+4422    0
+4423    0
+4424    0
+4425    0
+4426    0
+4427    0
+4428    0
+4429    0
+4430    0
+4431    0
+4432    0
+Name: Cardiovascular0, Length: 4433, dtype: category
+Categories (1, int64): [0]
+
+In [48]: df.drop['diagnosis']                                                                        
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-48-20fdd78489c2> in <module>
+----> 1 df.drop['diagnosis']
+
+TypeError: 'method' object is not subscriptable
+
+In [49]: df.drop('diagnosis')                                                                        
+---------------------------------------------------------------------------
+KeyError                                  Traceback (most recent call last)
+<ipython-input-49-99aa8bfc4615> in <module>
+----> 1 df.drop('diagnosis')
+
+/usr/local/lib/python3.7/site-packages/pandas/core/frame.py in drop(self, labels, axis, index, columns, level, inplace, errors)
+   3695                                            index=index, columns=columns,
+   3696                                            level=level, inplace=inplace,
+-> 3697                                            errors=errors)
+   3698 
+   3699     @rewrite_axis_style_signature('mapper', [('copy', True),
+
+/usr/local/lib/python3.7/site-packages/pandas/core/generic.py in drop(self, labels, axis, index, columns, level, inplace, errors)
+   3109         for axis, labels in axes.items():
+   3110             if labels is not None:
+-> 3111                 obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+   3112 
+   3113         if inplace:
+
+/usr/local/lib/python3.7/site-packages/pandas/core/generic.py in _drop_axis(self, labels, axis, level, errors)
+   3141                 new_axis = axis.drop(labels, level=level, errors=errors)
+   3142             else:
+-> 3143                 new_axis = axis.drop(labels, errors=errors)
+   3144             result = self.reindex(**{axis_name: new_axis})
+   3145 
+
+/usr/local/lib/python3.7/site-packages/pandas/core/indexes/base.py in drop(self, labels, errors)
+   4402             if errors != 'ignore':
+   4403                 raise KeyError(
+-> 4404                     '{} not found in axis'.format(labels[mask]))
+   4405             indexer = indexer[~mask]
+   4406         return self.delete(indexer)
+
+KeyError: "['diagnosis'] not found in axis"
+
+In [50]: df.drop('diagnosis', axis = 1)                                                              
+Out[50]: 
+           p_id    c_id Cardiovascular0 Cardiovascular1  ...   Cardiovascular804 sex state county
+0     MNEG26099    3877               0               0  ...                 NaN   M    26    099
+1     FNEG47157   11214               0               0  ...                 NaN   F    47    157
+2     MNEG39023   11348               0               0  ...                 NaN   M    39    023
+3     FNEG39057   12051               0               0  ...                 NaN   F    39    057
+4     FNEG18003   12605               0               0  ...                 NaN   F    18    003
+5     MNEG39023   13534               0               0  ...                 NaN   M    39    023
+6     FNEG39113   14206               0               0  ...                 NaN   F    39    113
+7     MNEG39091   15070               0               0  ...                 NaN   M    39    091
+8     MNEG39003   15236               0               0  ...                 NaN   M    39    003
+9     MNEG39017   15460               0               0  ...                 NaN   M    39    017
+10    MNEG39049   15460               0               0  ...                 NaN   M    39    049
+11    MPOS39049   17356               0               0  ...                 NaN   M    39    049
+12    MNEG18003   18434               0               0  ...                 NaN   M    18    003
+13    MNEG39049   18816               0               0  ...                 NaN   M    39    049
+14    MNEG39023   19849               0               0  ...                 NaN   M    39    023
+15    FNEG18003   21592               0               0  ...                 NaN   F    18    003
+16    MNEG18003   21904               0               0  ...                 NaN   M    18    003
+17    FNEG18065   23638               0               0  ...                 NaN   F    18    065
+18    FNEG18059   25487               0               0  ...                 NaN   F    18    059
+19    MNEG18059   25909               0               0  ...                 NaN   M    18    059
+20    MNEG18003   25944               0               0  ...                 NaN   M    18    003
+21    MNEG17031   27099               0               0  ...                 NaN   M    17    031
+22    MNEG17031   27100               0               0  ...                 NaN   M    17    031
+23    MNEG17197   27333               0               0  ...                 NaN   M    17    197
+24    MNEG17031   27491               0               0  ...                 NaN   M    17    031
+25    MNEG17089   27794               0               0  ...                 NaN   M    17    089
+26    FNEG17197   28237               0               0  ...                 NaN   F    17    197
+27    FNEG17031   28483               0               0  ...                 NaN   F    17    031
+28    MNEG18097   29411               0               0  ...                 NaN   M    18    097
+29    FNEG17043   31298               0               0  ...                 NaN   F    17    043
+...         ...     ...             ...             ...  ...                 ...  ..   ...    ...
+4403  MNEG13051  779079               0               0  ...                 NaN   M    13    051
+4404  MNEG13255  779450               0               0  ...                 NaN   M    13    255
+4405  MNEG13245  779582               0               0  ...                 NaN   M    13    245
+4406  FNEG13107  779597               0               0  ...                 NaN   F    13    107
+4407  FNEG13009  779670               0               0  ...                 NaN   F    13    009
+4408  FNEG13247  779670               0               0  ...                 NaN   F    13    247
+4409  MNEG13149  779740               0               0  ...                 NaN   M    13    149
+4410  FNEG13077  779755               0               0  ...                 NaN   F    13    077
+4411  MPOS13137  779820               0               0  ...                 NaN   M    13    137
+4412  MNEG13137  779912               0               0  ...                 NaN   M    13    137
+4413  MNEG13073  779965               0               0  ...                 NaN   M    13    073
+4414  MNEG13251  780251               0               0  ...                 NaN   M    13    251
+4415  MNEG13095  780957               0               0  ...                 NaN   M    13    095
+4416  MNEG13121  780968               0               0  ...                 NaN   M    13    121
+4417  MNEG13223  780968               0               0  ...                 NaN   M    13    223
+4418  MNEG13137  781360               0               0  ...                 NaN   M    13    137
+4419  MNEG13127  781517               0               0  ...                 NaN   M    13    127
+4420  FNEG13185  781544               0               0  ...                 NaN   F    13    185
+4421  MNEG13157  781579               0               0  ...                 NaN   M    13    157
+4422  MNEG13285  781579               0               0  ...                 NaN   M    13    285
+4423  MNEG13283  781658               0               0  ...                 NaN   M    13    283
+4424  FNEG13073  781928               0               0  ...                 NaN   F    13    073
+4425  MNEG13045  781933               0               0  ...                 NaN   M    13    045
+4426  MNEG13097  781933               0               0  ...                 NaN   M    13    097
+4427  FNEG13267  781973               0               0  ...                 NaN   F    13    267
+4428  MNEG13267  781974               0               0  ...                 NaN   M    13    267
+4429  MNEG13229  782096               0               0  ...                 NaN   M    13    229
+4430  MNEG13299  782096               0               0  ...                 NaN   M    13    299
+4431  MNEG13295  782146               0               0  ...                 NaN   M    13    295
+4432  FNEG13023  782647               0               0  ...                 NaN   F    13    023
+
+[4433 rows x 810 columns]
+
+In [51]: m.apply_naive_bayes('data')                                                                 
+---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+<ipython-input-51-8973912b7338> in <module>
+----> 1 m.apply_naive_bayes('data')
+
+~/Documents/GitHub/CCTS40500_/midterm/midterm.py in apply_naive_bayes(directory)
+     36 
+     37 def apply_naive_bayes(directory):
+---> 38     for fname in os.listidr('data'):
+     39         df = read_file(fname)
+     40 
+
+AttributeError: module 'os' has no attribute 'listidr'
+
+In [52]: import os                                                                                   
+
+In [53]: os.listdir('data')                                                                          
+Out[53]: 
+['Musculoskeletal',
+ 'Positive',
+ '.DS_Store',
+ 'Development',
+ 'Metabolic',
+ 'Neoplastic',
+ 'Hepatic',
+ 'Digestive',
+ 'Negative',
+ 'Urinary',
+ 'PNS',
+ '__pycache__',
+ 'Endocrine',
+ 'Immune',
+ 'Reproductive',
+ 'Hematologic',
+ 'Cardiovascular',
+ 'Infectious',
+ 'Respiratory',
+ 'Integumentary',
+ 'Ophthalmological',
+ 'Procedural',
+ 'Otic']
+
+
+[3]+  Stopped                 ipython3
+Abdallahs-MacBook-Pro:midterm abdallahaboelela$ clear
+
+Abdallahs-MacBook-Pro:midterm abdallahaboelela$ ls
+README.md	__pycache__	code_snippets	data		midterm.py
+Abdallahs-MacBook-Pro:midterm abdallahaboelela$ cd data
+Abdallahs-MacBook-Pro:data abdallahaboelela$ ls
+Cardiovascular		Immune			Neoplastic		Reproductive
+Development		Infectious		Ophthalmological	Respiratory
+Digestive		Integumentary		Otic			Urinary
+Endocrine		Metabolic		PNS			__pycache__
+Hematologic		Musculoskeletal		Positive
+Hepatic			Negative		Procedural
+Abdallahs-MacBook-Pro:data abdallahaboelela$ rm __pycache__/
+rm: __pycache__/: is a directory
+Abdallahs-MacBook-Pro:data abdallahaboelela$ rm -rf __pycache__/
+Abdallahs-MacBook-Pro:data abdallahaboelela$ ls
+Cardiovascular		Immune			Neoplastic		Reproductive
+Development		Infectious		Ophthalmological	Respiratory
+Digestive		Integumentary		Otic			Urinary
+Endocrine		Metabolic		PNS
+Hematologic		Musculoskeletal		Positive
+Hepatic			Negative		Procedural
+Abdallahs-MacBook-Pro:data abdallahaboelela$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Abdallahs-MacBook-Pro:data abdallahaboelela$ cd ..
+Abdallahs-MacBook-Pro:midterm abdallahaboelela$ ls
+README.md	__pycache__	code_snippets	data		midterm.py
+Abdallahs-MacBook-Pro:midterm abdallahaboelela$ ipython3
+Python 3.7.2 (default, Dec 27 2018, 07:35:06) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.2.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: %load_ext autoreload                                                                         
+
+In [2]: %autoreload 2                                                                                
+
+In [3]: clear                                                                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In [4]: ls                                                                                           
+README.md      __pycache__/   code_snippets/ data/          midterm.py
+
+In [5]: import midterm as m                                                                          
+
+In [6]: m.apply_naive_bayes('data')                                                                  
+---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+<ipython-input-6-8973912b7338> in <module>
+----> 1 m.apply_naive_bayes('data')
+
+~/Documents/GitHub/CCTS40500_/midterm/midterm.py in apply_naive_bayes(directory)
+     36 
+     37 def apply_naive_bayes(directory):
+---> 38     for fname in os.listidr('data'):
+     39         df = read_file(fname)
+     40 
+
+AttributeError: module 'os' has no attribute 'listidr'
+
+In [7]: m.apply_naive_bayes('data')                                                                  
+---------------------------------------------------------------------------
+FileNotFoundError                         Traceback (most recent call last)
+<ipython-input-7-8973912b7338> in <module>
+----> 1 m.apply_naive_bayes('data')
+
+~/Documents/GitHub/CCTS40500_/midterm/midterm.py in apply_naive_bayes(directory)
+     37 def apply_naive_bayes(directory):
+     38     for fname in os.listdir('data'):
+---> 39         df = read_file(fname)
+     40 
+     41         X_train, X_test, y_train, y_test = train_test_split(df.drop('diagnosis', axis = 1), 
+
+~/Documents/GitHub/CCTS40500_/midterm/midterm.py in read_file(fname)
+      9 
+     10 def read_file(fname):
+---> 11     with open(fname) as f:
+     12         content = f.readlines()
+     13 
+
+FileNotFoundError: [Errno 2] No such file or directory: 'Musculoskeletal'
+
+In [8]: ls                                                                                           
+README.md      __pycache__/   code_snippets/ data/          midterm.py
+
+In [9]: cd data/                                                                                     
+/Users/abdallahaboelela/Documents/GitHub/CCTS40500_/midterm/data
+
+In [10]: ls                                                                                          
+Cardiovascular    Hepatic           Musculoskeletal   PNS               Urinary
+Development       Immune            Negative          Positive
+Digestive         Infectious        Neoplastic        Procedural
+Endocrine         Integumentary     Ophthalmological  Reproductive
+Hematologic       Metabolic         Otic              Respiratory
+
+In [11]: cd ..                                                                                       
+[autoreload of midterm failed: Traceback (most recent call last):
+  File "/Users/abdallahaboelela/Library/Python/3.7/lib/python/site-packages/IPython/extensions/autoreload.py", line 244, in check
+    superreload(m, reload, self.old_objects)
+  File "/Users/abdallahaboelela/Library/Python/3.7/lib/python/site-packages/IPython/extensions/autoreload.py", line 376, in superreload
+    module = reload(module)
+  File "/usr/local/Cellar/python/3.7.2/Frameworks/Python.framework/Versions/3.7/lib/python3.7/imp.py", line 314, in reload
+    return importlib.reload(module)
+  File "/usr/local/Cellar/python/3.7.2/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py", line 168, in reload
+    raise ModuleNotFoundError(f"spec not found for the module {name!r}", name=name)
+ModuleNotFoundError: spec not found for the module 'midterm'
+]
+/Users/abdallahaboelela/Documents/GitHub/CCTS40500_/midterm
+
+In [12]: clear                                                                                       
+
+
+In [13]: ls                                                                                          
+README.md      __pycache__/   code_snippets/ data/          midterm.py
+
+In [14]: m.apply_naive_bayes('data')                                                                 
+---------------------------------------------------------------------------
+FileNotFoundError                         Traceback (most recent call last)
+<ipython-input-14-8973912b7338> in <module>
+----> 1 m.apply_naive_bayes('data')
+
+~/Documents/GitHub/CCTS40500_/midterm/midterm.py in apply_naive_bayes(directory)
+     37 def apply_naive_bayes(directory):
+     38     for fname in os.listdir('data'):
+---> 39         df = read_file('data/' + fname)
+     40 
+     41         X_train, X_test, y_train, y_test = train_test_split(df.drop('diagnosis', axis = 1), 
+
+~/Documents/GitHub/CCTS40500_/midterm/midterm.py in read_file(fname)
+      9 
+     10 def read_file(fname):
+---> 11     with open(fname) as f:
+     12         content = f.readlines()
+     13 
+
+FileNotFoundError: [Errno 2] No such file or directory: 'Musculoskeletal'
+
+In [15]: m.apply_naive_bayes('data')                                                                 
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-15-8973912b7338> in <module>
+----> 1 m.apply_naive_bayes('data')
+
+~/Documents/GitHub/CCTS40500_/midterm/midterm.py in apply_naive_bayes(directory)
+     39         df = read_file('data/' + fname)
+     40 
+---> 41         X_train, X_test, y_train, y_test = train_test_split(df.drop('diagnosis', axis = 1), 
+     42             df.diagnosis, random_state = 42)
+     43 
+
+NameError: name 'train_test_split' is not defined
+
+In [16]: m.apply_naive_bayes('data')                                                                 
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+<ipython-input-16-8973912b7338> in <module>
+----> 1 m.apply_naive_bayes('data')
+
+~/Documents/GitHub/CCTS40500_/midterm/midterm.py in apply_naive_bayes(directory)
+     44 
+     45         clf = GaussianNB()
+---> 46         clf.fit(X_train, y_train)
+     47 
+     48         print(fname[5:])
+
+/usr/local/lib/python3.7/site-packages/sklearn/naive_bayes.py in fit(self, X, y, sample_weight)
+    188         self : object
+    189         """
+--> 190         X, y = check_X_y(X, y)
+    191         return self._partial_fit(X, y, np.unique(y), _refit=True,
+    192                                  sample_weight=sample_weight)
+
+/usr/local/lib/python3.7/site-packages/sklearn/utils/validation.py in check_X_y(X, y, accept_sparse, accept_large_sparse, dtype, order, copy, force_all_finite, ensure_2d, allow_nd, multi_output, ensure_min_samples, ensure_min_features, y_numeric, warn_on_dtype, estimator)
+    754                     ensure_min_features=ensure_min_features,
+    755                     warn_on_dtype=warn_on_dtype,
+--> 756                     estimator=estimator)
+    757     if multi_output:
+    758         y = check_array(y, 'csr', force_all_finite=True, ensure_2d=False,
+
+/usr/local/lib/python3.7/site-packages/sklearn/utils/validation.py in check_array(array, accept_sparse, accept_large_sparse, dtype, order, copy, force_all_finite, ensure_2d, allow_nd, ensure_min_samples, ensure_min_features, warn_on_dtype, estimator)
+    565         # make sure we actually converted to numeric:
+    566         if dtype_numeric and array.dtype.kind == "O":
+--> 567             array = array.astype(np.float64)
+    568         if not allow_nd and array.ndim >= 3:
+    569             raise ValueError("Found array with dim %d. %s expected <= 2."
+
+ValueError: could not convert string to float: 'FNEG26049'
+
+In [17]: m.apply_naive_bayes('data')                                                                 
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+<ipython-input-17-8973912b7338> in <module>
+----> 1 m.apply_naive_bayes('data')
+
+~/Documents/GitHub/CCTS40500_/midterm/midterm.py in apply_naive_bayes(directory)
+     40 
+     41         X_train, X_test, y_train, y_test = train_test_split(df[2:].drop('diagnosis', axis = 1), 
+---> 42             df.diagnosis, random_state = 42)
+     43 
+     44         clf = GaussianNB()
+
+/usr/local/lib/python3.7/site-packages/sklearn/model_selection/_split.py in train_test_split(*arrays, **options)
+   2182         test_size = 0.25
+   2183 
+-> 2184     arrays = indexable(*arrays)
+   2185 
+   2186     if shuffle is False:
+
+/usr/local/lib/python3.7/site-packages/sklearn/utils/validation.py in indexable(*iterables)
+    258         else:
+    259             result.append(np.array(X))
+--> 260     check_consistent_length(*result)
+    261     return result
+    262 
+
+/usr/local/lib/python3.7/site-packages/sklearn/utils/validation.py in check_consistent_length(*arrays)
+    233     if len(uniques) > 1:
+    234         raise ValueError("Found input variables with inconsistent numbers of"
+--> 235                          " samples: %r" % [int(l) for l in lengths])
+    236 
+    237 
+
+ValueError: Found input variables with inconsistent numbers of samples: [13961, 13963]
+
+In [18]: df                                                                                          
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-18-00cf07b74dcd> in <module>
+----> 1 df
+
+NameError: name 'df' is not defined
+
+In [19]: clear                                                                                       
+
+
+In [20]: m.apply_naive_bayes('data')                                                                 
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+<ipython-input-20-8973912b7338> in <module>
+----> 1 m.apply_naive_bayes('data')
+
+~/Documents/GitHub/CCTS40500_/midterm/midterm.py in apply_naive_bayes(directory)
+     43 
+     44         clf = GaussianNB()
+---> 45         clf.fit(X_train, y_train)
+     46 
+     47         print(fname[5:])
+
+/usr/local/lib/python3.7/site-packages/sklearn/naive_bayes.py in fit(self, X, y, sample_weight)
+    188         self : object
+    189         """
+--> 190         X, y = check_X_y(X, y)
+    191         return self._partial_fit(X, y, np.unique(y), _refit=True,
+    192                                  sample_weight=sample_weight)
+
+/usr/local/lib/python3.7/site-packages/sklearn/utils/validation.py in check_X_y(X, y, accept_sparse, accept_large_sparse, dtype, order, copy, force_all_finite, ensure_2d, allow_nd, multi_output, ensure_min_samples, ensure_min_features, y_numeric, warn_on_dtype, estimator)
+    754                     ensure_min_features=ensure_min_features,
+    755                     warn_on_dtype=warn_on_dtype,
+--> 756                     estimator=estimator)
+    757     if multi_output:
+    758         y = check_array(y, 'csr', force_all_finite=True, ensure_2d=False,
+
+/usr/local/lib/python3.7/site-packages/sklearn/utils/validation.py in check_array(array, accept_sparse, accept_large_sparse, dtype, order, copy, force_all_finite, ensure_2d, allow_nd, ensure_min_samples, ensure_min_features, warn_on_dtype, estimator)
+    565         # make sure we actually converted to numeric:
+    566         if dtype_numeric and array.dtype.kind == "O":
+--> 567             array = array.astype(np.float64)
+    568         if not allow_nd and array.ndim >= 3:
+    569             raise ValueError("Found array with dim %d. %s expected <= 2."
+
+ValueError: could not convert string to float: 'F'
+
+In [21]: df = m.read_file('data/Musculoskeletal')                                                    
+
+In [22]: df                                                                                          
+Out[22]: 
+            p_id    c_id Musculoskeletal0 Musculoskeletal1  ...   sex diagnosis state county
+0      MNEG55007    1238                0                0  ...     M       NEG    55    007
+1      FNEG55007    1240                0                0  ...     F       NEG    55    007
+2      MNEG26065    2393                0                0  ...     M       NEG    26    065
+3      FNEG13029    9489                0                0  ...     F       NEG    13    029
+4      FNEG13051    9489                0                0  ...     F       NEG    13    051
+5      FNEG26055    9489                0                0  ...     F       NEG    26    055
+6      MNEG17093   10670                0                0  ...     M       NEG    17    093
+7      MNEG21111   10679                0                0  ...     M       NEG    21    111
+8      MNEG18003   10710                0                0  ...     M       NEG    18    003
+9      MNEG12011   10759                0                0  ...     M       NEG    12    011
+10     FNEG34007   10917                0                0  ...     F       NEG    34    007
+11     FNEG18097   11430                0                0  ...     F       NEG    18    097
+12     FNEG18097   11431                0                0  ...     F       NEG    18    097
+13     FNEG39023   11461                0                0  ...     F       NEG    39    023
+14     FNEG48085   11461                0                0  ...     F       NEG    48    085
+15     MNEG55133   11467                0                0  ...     M       NEG    55    133
+16     MNEG08119   11696                0                0  ...     M       NEG    08    119
+17     MNEG39021   12046                0                0  ...     M       NEG    39    021
+18     FNEG39049   12229                0                0  ...     F       NEG    39    049
+19     MNEG39049   12230                0                0  ...     M       NEG    39    049
+20     MNEG39023   13059                0                0  ...     M       NEG    39    023
+21     MNEG39023   13185                0                0  ...     M       NEG    39    023
+22     FNEG39023   13808                0                0  ...     F       NEG    39    023
+23     FNEG39021   14195                0                0  ...     F       NEG    39    021
+24     FNEG39057   14195                0                0  ...     F       NEG    39    057
+25     FNEG39113   14206                0                0  ...     F       NEG    39    113
+26     FNEG39023   14548                0                0  ...     F       NEG    39    023
+27     MNEG39021   14558                0                0  ...     M       NEG    39    021
+28     FNEG39023   14702                0                0  ...     F       NEG    39    023
+29     MNEG39023   14791                0                0  ...     M       NEG    39    023
+...          ...     ...              ...              ...  ...    ..       ...   ...    ...
+13933  MNEG13255  781694                0                0  ...     M       NEG    13    255
+13934  MNEG13111  781749                0                0  ...     M       NEG    13    111
+13935  MNEG13123  781749                0                0  ...     M       NEG    13    123
+13936  MNEG13133  781828                0                0  ...     M       NEG    13    133
+13937  MNEG13115  781871                0                0  ...     M       NEG    13    115
+13938  MNEG13045  781933                0                0  ...     M       NEG    13    045
+13939  MNEG13097  781933                0                0  ...     M       NEG    13    097
+13940  FNEG13185  781940                0                0  ...     F       NEG    13    185
+13941  MNEG13117  781965                0                0  ...     M       NEG    13    117
+13942  MNEG13009  781997                0                0  ...     M       NEG    13    009
+13943  MNEG13319  781997                0                0  ...     M       NEG    13    319
+13944  MNEG13105  782041                0                0  ...     M       NEG    13    105
+13945  FNEG13021  782083                0                0  ...     F       NEG    13    021
+13946  MNEG13229  782096                0                0  ...     M       NEG    13    229
+13947  MNEG13299  782096                0                0  ...     M       NEG    13    299
+13948  FNEG13185  782104                0                0  ...     F       NEG    13    185
+13949  FNEG13107  782200                0                0  ...     F       NEG    13    107
+13950  FNEG13071  782221                0                0  ...     F       NEG    13    071
+13951  FNEG13033  782235                0                0  ...     F       NEG    13    033
+13952  FNEG13245  782235                0                0  ...     F       NEG    13    245
+13953  FNEG13023  782262                0                0  ...     F       NEG    13    023
+13954  MNEG13297  782309                0                0  ...     M       NEG    13    297
+13955  MNEG13313  782382                0                0  ...     M       NEG    13    313
+13956  MNEG13103  782431                0                0  ...     M       NEG    13    103
+13957  MNEG13097  782530                0                0  ...     M       NEG    13    097
+13958  MNEG13097  782531                0                0  ...     M       NEG    13    097
+13959  FNEG13303  782575                0                0  ...     F       NEG    13    303
+13960  FNEG13047  782627                0                0  ...     F       NEG    13    047
+13961  FNEG13037  782746                0                0  ...     F       NEG    13    037
+13962  MNEG13037  782747                0                0  ...     M       NEG    13    037
+
+[13963 rows x 811 columns]
+
+In [23]: df.sex                                                                                      
+Out[23]: 
+0        M
+1        F
+2        M
+3        F
+4        F
+5        F
+6        M
+7        M
+8        M
+9        M
+10       F
+11       F
+12       F
+13       F
+14       F
+15       M
+16       M
+17       M
+18       F
+19       M
+20       M
+21       M
+22       F
+23       F
+24       F
+25       F
+26       F
+27       M
+28       F
+29       M
+        ..
+13933    M
+13934    M
+13935    M
+13936    M
+13937    M
+13938    M
+13939    M
+13940    F
+13941    M
+13942    M
+13943    M
+13944    M
+13945    F
+13946    M
+13947    M
+13948    F
+13949    F
+13950    F
+13951    F
+13952    F
+13953    F
+13954    M
+13955    M
+13956    M
+13957    M
+13958    M
+13959    F
+13960    F
+13961    F
+13962    M
+Name: sex, Length: 13963, dtype: category
+Categories (2, object): [F, M]
+
+In [24]: m.apply_naive_bayes('data')                                                                 
+loskeletal
+0.30650243483242623
+
+ive
+0.2856683804627249
+
+---------------------------------------------------------------------------
+UnicodeDecodeError                        Traceback (most recent call last)
+<ipython-input-24-8973912b7338> in <module>
+----> 1 m.apply_naive_bayes('data')
+
+~/Documents/GitHub/CCTS40500_/midterm/midterm.py in apply_naive_bayes(directory)
+     37 def apply_naive_bayes(directory):
+     38     for fname in os.listdir('data'):
+---> 39         df = read_file('data/' + fname)
+     40 
+     41         X_train, X_test, y_train, y_test = train_test_split(df.ix[:, 2:].drop('diagnosis', 
+
+~/Documents/GitHub/CCTS40500_/midterm/midterm.py in read_file(fname)
+     10 def read_file(fname):
+     11     with open(fname) as f:
+---> 12         content = f.readlines()
+     13 
+     14     content = [x.strip().split(' ') for x in content]
+
+/usr/local/Cellar/python/3.7.2/Frameworks/Python.framework/Versions/3.7/lib/python3.7/codecs.py in decode(self, input, final)
+    320         # decode input (taking the buffer into account)
+    321         data = self.buffer + input
+--> 322         (result, consumed) = self._buffer_decode(data, self.errors, final)
+    323         # keep undecoded input until the next call
+    324         self.buffer = data[consumed:]
+
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x80 in position 3131: invalid start byte
+
+In [25]: m.apply_naive_bayes('data')                                                                 
+Musculoskeletal
+0.30650243483242623
+
+Positive
+0.2856683804627249
+
+.DS_Store
+---------------------------------------------------------------------------
+UnicodeDecodeError                        Traceback (most recent call last)
+<ipython-input-25-8973912b7338> in <module>
+----> 1 m.apply_naive_bayes('data')
+
+~/Documents/GitHub/CCTS40500_/midterm/midterm.py in apply_naive_bayes(directory)
+     38     for fname in os.listdir('data'):
+     39         print(fname)
+---> 40         df = read_file('data/' + fname)
+     41 
+     42         X_train, X_test, y_train, y_test = train_test_split(df.ix[:, 2:].drop('diagnosis', 
+
+~/Documents/GitHub/CCTS40500_/midterm/midterm.py in read_file(fname)
+     10 def read_file(fname):
+     11     with open(fname) as f:
+---> 12         content = f.readlines()
+     13 
+     14     content = [x.strip().split(' ') for x in content]
+
+/usr/local/Cellar/python/3.7.2/Frameworks/Python.framework/Versions/3.7/lib/python3.7/codecs.py in decode(self, input, final)
+    320         # decode input (taking the buffer into account)
+    321         data = self.buffer + input
+--> 322         (result, consumed) = self._buffer_decode(data, self.errors, final)
+    323         # keep undecoded input until the next call
+    324         self.buffer = data[consumed:]
+
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x80 in position 3131: invalid start byte
+
+In [26]: ls                                                                                          
+README.md      __pycache__/   code_snippets/ data/          midterm.py
+
+In [27]: cd data                                                                                     
+/Users/abdallahaboelela/Documents/GitHub/CCTS40500_/midterm/data
+
+In [28]: ls                                                                                          
+Cardiovascular    Hepatic           Musculoskeletal   PNS               Urinary
+Development       Immune            Negative          Positive
+Digestive         Infectious        Neoplastic        Procedural
+Endocrine         Integumentary     Ophthalmological  Reproductive
+Hematologic       Metabolic         Otic              Respiratory
+
+In [29]: os.listdir('data')                                                                          
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-29-cff676900902> in <module>
+----> 1 os.listdir('data')
+
+NameError: name 'os' is not defined
+
+In [30]: import os                                                                                   
+
+In [31]: os.listdir('data')                                                                          
+---------------------------------------------------------------------------
+FileNotFoundError                         Traceback (most recent call last)
+<ipython-input-31-cff676900902> in <module>
+----> 1 os.listdir('data')
+
+FileNotFoundError: [Errno 2] No such file or directory: 'data'
+
+In [32]: cd ..                                                                                       
+/Users/abdallahaboelela/Documents/GitHub/CCTS40500_/midterm
+
+In [33]: os.listdir('data')                                                                          
+Out[33]: 
+['Musculoskeletal',
+ 'Positive',
+ '.DS_Store',
+ 'Development',
+ 'Metabolic',
+ 'Neoplastic',
+ 'Hepatic',
+ 'Digestive',
+ 'Negative',
+ 'Urinary',
+ 'PNS',
+ 'Endocrine',
+ 'Immune',
+ 'Reproductive',
+ 'Hematologic',
+ 'Cardiovascular',
+ 'Infectious',
+ 'Respiratory',
+ 'Integumentary',
+ 'Ophthalmological',
+ 'Procedural',
+ 'Otic']
+
+In [34]: m.apply_naive_bayes('data')                                                                 
+Musculoskeletal
+0.30650243483242623
+
+Positive
+0.2856683804627249
+
+Development
+0.1994106090373281
+
+Metabolic
+0.36278195488721804
+
+Neoplastic
+0.591674047829938
+
+Hepatic
+1.0
+
+Digestive
+0.23026315789473684
+
+Negative
+0.3583694866232827
+
+Urinary
+0.5725806451612904
+
+PNS
+0.22310570626753976
+
+Endocrine
+0.966804979253112
+
+Immune
+0.2209950675530774
+
+Reproductive
+0.2128733697938578
+
+Hematologic
+0.6168741355463347
+
+Cardiovascular
+0.2984670874661858
+
+Infectious
+0.20451237263464336
+
+Respiratory
+0.21799561082662766
+
+Integumentary
+0.2737642585551331
+
+Ophthalmological
+0.17671691792294808
+
+Procedural
+0.20803295571575695
+
+Otic
+0.22306238185255198
+
+
+In [35]:                                                                                             
