@@ -19,7 +19,7 @@ def read_file(fname):
 
     name = fname[5:]
 
-    columns = ['p_id', 'c_id'] + [name + str(x) for x in range(max_cols - 2)]
+    columns = ['p_id', 'c_id'] + list(range(max_cols - 2))
 
     df = pd.read_csv(fname, names = columns, engine = 'python', 
         delim_whitespace = True)
@@ -33,6 +33,14 @@ def read_file(fname):
         df[col] = pd.Categorical(df[col]).codes
 
     return df
+
+def merge_dfs(directory):
+    for fname in os.listdir('data'):
+        if '.' in fname or '_' in fname:
+            pass
+
+        else:
+    pass
 
 def apply_naive_bayes(directory):
     for fname in os.listdir('data'):
@@ -51,6 +59,7 @@ def apply_naive_bayes(directory):
             
             print(clf.score(X_test, y_test))
             print()
+
 
 
 
