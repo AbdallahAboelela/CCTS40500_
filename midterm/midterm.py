@@ -4,8 +4,19 @@
 import pandas as pd 
 import numpy as np
 import os
-from sklearn.naive_bayes import GaussianNB
+import csv
 from sklearn.model_selection import train_test_split
+
+from sklearn.naive_bayes import GaussianNB
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.svm import SVC
+from sklearn.linear_model import LinearRegression
+
+# TO DO:
+# 1. Add fraction of time sick <6 months, <2 years, overall
+# 2. Combine files into one huge dataframe with categories for each value?
+# 3. Consider only first x weeks?
 
 def read_file(fname):
     with open(fname) as f:
@@ -34,15 +45,9 @@ def read_file(fname):
 
     return df
 
-def merge_dfs(directory):
-    for fname in os.listdir('data'):
-        if '.' in fname or '_' in fname:
-            pass
+def classify(csv_file, directory):
+    rows = [['Disease', 'NB', 'DT', 'RF', 'SVC', 'LR']]
 
-        else:
-    pass
-
-def apply_naive_bayes(directory):
     for fname in os.listdir('data'):
         if '.' in fname or '_' in fname:
             pass
@@ -51,22 +56,39 @@ def apply_naive_bayes(directory):
             print(fname)
             df = read_file('data/' + fname)
 
-            X_train, X_test, y_train, y_test = train_test_split(df.ix[:, 2:].drop('diagnosis', 
+            X_train, X_test, y_train, y_test = train_test_split(df.iloc[:, 2:].drop('diagnosis', 
                 axis = 1), df.diagnosis, random_state = 42)
 
-            clf = GaussianNB()
-            clf.fit(X_train, y_train)
-            
-            print(clf.score(X_test, y_test))
+            nb = GaussianNB()
+            nb.fit(X_train, y_train)
+            nb_score = nb.score(X_test, y_test)
+            print('Naive Bayes: ', nb_score)
+
+            dt = DecisionTreeClassifier()
+            dt.fit(X_train, y_train)
+            dt_score = dt.score(X_test, y_test)
+            print('Decision Tree: ', dt_score)
+
+            rf = RandomForestClassifier(n_estimators = 100)
+            rf.fit(X_train, y_train)
+            rf_score = rf.score(X_test, y_test)
+            print('Random Forest: ', rf_score)
+
+            svc = SVC(gamma = 'auto')
+            svc.fit(X_train, y_train)
+            svc_score = svc.score(X_test, y_test)
+            print('SVC: ', svc_score)
+
+            reg = LinearRegression()
+            reg.fit(X_train, y_train)
+            reg_score = reg.score(X_test, y_test)
+            print('Linear Regression: ', reg_score)
             print()
 
+    with open(csv_file, 'wb') as f:
+        writer = csv.writer(f, delimiter=',')
 
-
-
-
-
-
-
-
+        for row in rows:
+            writer.writerow(row)
 
 
