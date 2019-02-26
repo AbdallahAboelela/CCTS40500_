@@ -5,8 +5,8 @@ import pandas as pd
 import numpy as np
 import os
 import csv
-from sklearn.model_selection import train_test_split
 
+from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import GaussianNB
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
@@ -14,6 +14,7 @@ from sklearn.svm import SVC
 from sklearn.linear_model import LinearRegression
 
 # TO DO:
+##### FIGURE OUT HOW TO CALCULATE AUC
 # 1. Add fraction of time sick <6 months, <2 years, overall
 # 2. Combine files into one huge dataframe with categories for each value?
 # 3. Consider only first x weeks?
@@ -85,10 +86,17 @@ def classify(csv_file, directory):
             print('Linear Regression: ', reg_score)
             print()
 
+            rows.append([fname, nb_score, dt_score, rf_score, svc_score, reg_score])
+
     with open(csv_file, 'wb') as f:
         writer = csv.writer(f, delimiter=',')
 
         for row in rows:
             writer.writerow(row)
 
+'''
+YOU'VE BEEN DOING CALCULATIONS ALL WRONG:
+In [118]: sum((ys.diagnosis == 1) & (ys.diag_pred == 1))/sum(ys.diagnosis == 1)
+In [119]: sum((ys.diagnosis == 1) & (ys.diag_pred == 1))/sum(ys.diag_pred == 1)
+'''
 
