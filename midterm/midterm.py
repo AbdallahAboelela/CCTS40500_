@@ -12,12 +12,13 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC
 from sklearn.linear_model import LinearRegression
+from sklearn.metrics import roc_auc_score
 
 # TO DO:
-##### FIGURE OUT HOW TO CALCULATE AUC
 # 1. Add fraction of time sick <6 months, <2 years, overall
 # 2. Combine files into one huge dataframe with categories for each value?
 # 3. Consider only first x weeks?
+# 4. Merge overall
 
 def read_file(fname):
     with open(fname) as f:
@@ -50,7 +51,7 @@ def classify(csv_file, directory):
     rows = [['Disease', 'NB', 'DT', 'RF', 'SVC', 'LR']]
 
     for fname in os.listdir('data'):
-        if '.' in fname or '_' in fname:
+        if '.' in fname or '_' in fname or fname == 'Hepatic':
             pass
 
         else:
@@ -62,31 +63,37 @@ def classify(csv_file, directory):
 
             nb = GaussianNB()
             nb.fit(X_train, y_train)
-            nb_score = nb.score(X_test, y_test)
-            print('Naive Bayes: ', nb_score)
+            y_pred = nb.predict(X_test)
+            nb_auc = roc_auc_score(y_test, y_pred)
+            print('NB: ', nb_auc)
 
             dt = DecisionTreeClassifier()
             dt.fit(X_train, y_train)
-            dt_score = dt.score(X_test, y_test)
-            print('Decision Tree: ', dt_score)
+            y_pred = dt.predict(X_test)
+            dt_auc = roc_auc_score(y_test, y_pred)
+            print('DTC: ', dt_auc)
+
 
             rf = RandomForestClassifier(n_estimators = 100)
             rf.fit(X_train, y_train)
-            rf_score = rf.score(X_test, y_test)
-            print('Random Forest: ', rf_score)
+            y_pred = rf.predict(X_test)
+            rf_auc = roc_auc_score(y_test, y_pred)
+            print('RFC: ', rf_auc)
 
             svc = SVC(gamma = 'auto')
             svc.fit(X_train, y_train)
-            svc_score = svc.score(X_test, y_test)
-            print('SVC: ', svc_score)
+            y_pred = svc.predict(X_test)
+            svc_auc = roc_auc_score(y_test, y_pred)
+            print('SVC: ', svc_auc)
 
             reg = LinearRegression()
             reg.fit(X_train, y_train)
-            reg_score = reg.score(X_test, y_test)
-            print('Linear Regression: ', reg_score)
+            y_pred = reg.predict(X_test)
+            reg_auc = roc_auc_score(y_test, y_pred)
+            print('LinReg: ', reg_auc)
             print()
 
-            rows.append([fname, nb_score, dt_score, rf_score, svc_score, reg_score])
+            rows.append([fname, nb_auc, dt_auc, rf_auc, svc_auc, reg_auc])
 
     with open(csv_file, 'wb') as f:
         writer = csv.writer(f, delimiter=',')
