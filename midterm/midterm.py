@@ -93,17 +93,3 @@ def classify(csv_file, directory):
             print('LinReg: ', reg_auc)
             print()
 
-            rows.append([fname, nb_auc, dt_auc, rf_auc, svc_auc, reg_auc])
-
-    with open(csv_file, 'wb') as f:
-        writer = csv.writer(f, delimiter=',')
-
-        for row in rows:
-            writer.writerow(row)
-
-'''
-YOU'VE BEEN DOING CALCULATIONS ALL WRONG:
-In [118]: sum((ys.diagnosis == 1) & (ys.diag_pred == 1))/sum(ys.diagnosis == 1)
-In [119]: sum((ys.diagnosis == 1) & (ys.diag_pred == 1))/sum(ys.diag_pred == 1)
-'''
-
