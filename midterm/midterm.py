@@ -32,10 +32,10 @@ def read_file(fname):
 
     name = fname[5:]
 
-    columns = ['p_id', 'c_id'] + list(range(max_cols - 2))
+    columns = ['p_id', 'c_id'] + [name + str(i) for i in  range(max_cols - 2)]
 
     df = pd.read_csv(fname, names = columns, engine = 'python', 
-        delim_whitespace = True)
+        delim_whitespace = True, index_col = 'c_id')
 
     df['sex'] = df.p_id.apply(lambda x: x[0])
     df['diagnosis'] = df.p_id.apply(lambda x: x[1:4])
@@ -92,4 +92,29 @@ def classify(csv_file, directory):
             reg_auc = roc_auc_score(y_test, y_pred)
             print('LinReg: ', reg_auc)
             print()
+
+def merge(directory):
+    df = pd.DataFrame()
+
+    for fname in os.listdir('data'):
+        if '.' in fname or '_' in fname:
+            pass
+
+        else:
+            print(fname)
+            new = read_file('data/' + fname)
+
+            df = pd.concat([df, new])
+
+    return df
+
+
+
+
+
+
+
+
+
+
 
