@@ -93,22 +93,20 @@ def classify(csv_file, directory):
             print('LinReg: ', reg_auc)
             print()
 
-def merge(directory):
-    df = pd.DataFrame()
+def merge():
+    merged = pd.DataFrame()
 
     for fname in os.listdir('data'):
-        if '.' in fname or '_' in fname:
+        if '.' in fname or '_' in fname or fname in ['Positive', 'Negative']:
             pass
 
         else:
             print(fname)
             new = read_file('data/' + fname)
 
-            df = pd.concat([df, new])
-
-    return df
-
-
+            merged = pd.concat([merged, new], sort = True)
+    
+    return merged
 
 
 
